@@ -1,0 +1,4 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(C:\devl\work\GIT_WS\MyServer\conf\application.conf,C:\devl\work\GIT_WS\MyServer\target\scala-2.10\classes\application.conf)[0m
+[0m[[0mdebug[0m] [0m	(C:\devl\work\GIT_WS\MyServer\conf\logger.xml,C:\devl\work\GIT_WS\MyServer\target\scala-2.10\classes\logger.xml)[0m
+[0m[[0mdebug[0m] [0m	(C:\devl\work\GIT_WS\MyServer\conf\routes,C:\devl\work\GIT_WS\MyServer\target\scala-2.10\classes\routes)[0m

@@ -1,0 +1,53 @@
+<center>
+    <label class="myFont">Wellcom To Your Account</label>
+</center>
+<center>
+    <div class="myFont">{{message}}</div>
+</center>
+<hr>
+<hr>
+<center>
+    <div style='float:left'>
+        <form ng-submit="submit()">
+
+            <label class="myFont" for="mySelect">scroll down for choosing a debter: </label>
+
+            <select class="textar" name="mySelect" id="mySelect" ng-options="option.name for option in data.availableOptions track by      option.id" ng-model="data.selectedOption" ng-change="updateName()"></select>
+            </br>
+
+            <label class="myFont">choice an amount : </label>
+
+            <input type="number" ng-model="Amount" name="text" class="textar" placeholder="סכום" ng-change="updateBeforeInput()" required/> </br>
+            <label class="myFont">{{alertBeforeInput}}</label>
+            </br>
+            <input type="submit" id="submit" class="myButton" value="Yes I Confirm" /> </br>
+        </form>
+    </div>
+
+    <div style='float:right'>
+        <table>
+            <tr ng-repeat="x in debts">
+                <td>{{ x.Debter }}</td>
+                <td>{{ x.Amount }}</td>
+                <td>{{ x.Entitled }}</td>
+            </tr>
+        </table>
+    </div>
+</center>
+<br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+
+<hr>
+<hr>
+<br>
+<video width="320" height="240" controls>
+    <source src="videos/AirForceIsraelyArchive.mp4" type="video/mp4">
+    <source src="movie.ogg" type="video/ogg"> Your browser does not support the video tag.
+</video>
