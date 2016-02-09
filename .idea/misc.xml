@@ -1,0 +1,12 @@
+<project version="4">
+  <component settingsEditedManually="false" name="ProjectLevelVcsManager">
+    <OptionsSetting id="Add" value="true"/>
+    <OptionsSetting id="Remove" value="true"/>
+    <OptionsSetting id="Checkout" value="true"/>
+    <OptionsSetting id="Update" value="true"/>
+    <OptionsSetting id="Status" value="true"/>
+    <OptionsSetting id="Edit" value="true"/>
+    <ConfirmationsSetting id="Add" value="0"/>
+    <ConfirmationsSetting id="Remove" value="0"/>
+  </component>
+</project>

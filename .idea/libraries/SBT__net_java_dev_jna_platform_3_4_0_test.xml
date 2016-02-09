@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SBT: net.java.dev.jna:platform:3.4.0:test">
+    <CLASSES>
+      <root url="jar://C:\devl\tools\play-2.2.6\repository\local\net.java.dev.jna\platform\3.4.0\jars\platform.jar!/"/>
+    </CLASSES>
+    <JAVADOC> </JAVADOC>
+    <SOURCES> </SOURCES>
+  </library>
+</component>
