@@ -1,17 +1,11 @@
 package BL;
 
 import java.sql.Date;
-import java.sql.Time;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.Iterator;
-
 import DB.getterDB;
-import DB.setterDB;
 import Entity.Gelt;
 import Entity.User;
-import controllers.setter;
 
 /**
  * Will do all the logic of the data who asked from the server
