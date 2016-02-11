@@ -4,7 +4,7 @@
 		module="myserver_2.10"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20160209135055"
+		publication="20160211234601"
 	>
 		<description>
 		MyServer

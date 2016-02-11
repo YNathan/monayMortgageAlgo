@@ -163,3 +163,6 @@ eclipse
 run
 clean
 eclipse
+clean
+eclipse
+run

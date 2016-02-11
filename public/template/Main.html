@@ -25,16 +25,24 @@
     </div>
 
     <div style='float:right'>
-        <table>
+        <table class="rwd-table">
+            <h1>Debts Table</h1>
+            <tr>
+                <th>Debter</th>
+                <th>Entitled</th>
+                <th>Amount</th>
+            </tr>
             <tr ng-repeat="x in debts">
                 <td>{{ x.Debter }}</td>
-                <td>{{ x.Amount }}</td>
                 <td>{{ x.Entitled }}</td>
+                <td>{{ x.Amount }}</td>
             </tr>
         </table>
     </div>
 </center>
 <br>
+
+</br>
 </br>
 </br>
 </br>

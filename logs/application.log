@@ -1,1849 +1,1062 @@
-2016-02-08 22:22:16,510 - [INFO] - from play in pool-356-thread-3 
+2016-02-11 23:46:48,369 - [INFO] - from play in pool-18-thread-1 
 Listening for HTTP on /0:0:0:0:0:0:0:0:9000
 
-2016-02-08 22:22:18,088 - [INFO] database [default] connected at jdbc:mysql://localhost/yankalee
-2016-02-08 22:22:18,588 - [INFO] Application started (Dev)
-2016-02-08 22:22:18,994 - [INFO] [GETTER] david ask if is debter
-2016-02-08 22:22:18,994 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:22:18,994 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:22:18,994 - [INFO] [GETTER] <DATA>
-2016-02-08 22:22:20,588 - [INFO] [GETTER] Y.Nathan ask if is debter
-2016-02-08 22:22:20,588 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:22:20,604 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:22:20,604 - [INFO] [GETTER] <DATA>
-2016-02-08 22:22:22,370 - [INFO] [GETTER] david ask if is debter
-2016-02-08 22:22:22,370 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:22:22,385 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:22:22,385 - [INFO] [GETTER] <DATA>
-2016-02-08 22:22:36,071 - [INFO] [GETTER] david ask if is debter
-2016-02-08 22:22:36,071 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:22:36,087 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:22:36,087 - [INFO] [GETTER] <DATA>
-2016-02-08 22:22:37,823 - [INFO] <BUSINESS_LOGIC> Get users
-2016-02-08 22:22:37,823 - [INFO] <BUSINESS_LOGIC> Get Id by name
-2016-02-08 22:22:37,839 - [INFO] <DATA_BASE> Get User-Names
-2016-02-08 22:22:37,855 - [INFO] <DATA_BASE> Get Users
-2016-02-08 22:22:37,902 - [INFO] <DATA_BASE> Get Gelts
-2016-02-08 22:22:37,902 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-02-08 22:22:37,902 - [INFO] <DATA_BASE> Get Users
-2016-02-08 22:22:37,902 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-02-08 22:22:37,917 - [INFO] <DATA_BASE> Get Users
-2016-02-08 22:22:37,917 - [INFO] <BUSINESS_LOGIC> Get debt david : 1000 : Hektor
-2016-02-08 22:22:37,917 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-02-08 22:22:37,917 - [INFO] <DATA_BASE> Get Users
-2016-02-08 22:22:37,917 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-02-08 22:22:37,917 - [INFO] <DATA_BASE> Get Users
-2016-02-08 22:22:37,917 - [INFO] { "debts":[ {"Debter":"david","Amount":"1000","Entitled":"Hektor"} ]}
-2016-02-08 22:22:40,574 - [INFO] [GETTER] Y.Nathan ask if is debter
-2016-02-08 22:22:40,574 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:22:40,590 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:22:40,590 - [INFO] [GETTER] <DATA>
-2016-02-08 22:22:57,819 - [INFO] [GETTER] david ask if is debter
-2016-02-08 22:22:57,819 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:22:57,835 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:22:57,835 - [INFO] [GETTER] <DATA>
-2016-02-08 22:23:00,576 - [INFO] [GETTER] Y.Nathan ask if is debter
-2016-02-08 22:23:00,576 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:23:00,592 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:23:00,592 - [INFO] [GETTER] <DATA>
-2016-02-08 22:23:20,580 - [INFO] [GETTER] Y.Nathan ask if is debter
-2016-02-08 22:23:20,580 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:23:20,580 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:23:20,580 - [INFO] [GETTER] <DATA>
-2016-02-08 22:23:40,577 - [INFO] [GETTER] Y.Nathan ask if is debter
-2016-02-08 22:23:40,577 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:23:40,593 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:23:40,593 - [INFO] [GETTER] <DATA>
-2016-02-08 22:24:00,574 - [INFO] [GETTER] Y.Nathan ask if is debter
-2016-02-08 22:24:00,574 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:24:00,574 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:24:00,574 - [INFO] [GETTER] <DATA>
-2016-02-08 22:24:20,575 - [INFO] [GETTER] Y.Nathan ask if is debter
-2016-02-08 22:24:20,575 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:24:20,590 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:24:20,590 - [INFO] [GETTER] <DATA>
-2016-02-08 22:24:40,575 - [INFO] [GETTER] Y.Nathan ask if is debter
-2016-02-08 22:24:40,575 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:24:40,591 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:24:40,591 - [INFO] [GETTER] <DATA>
-2016-02-08 22:25:00,572 - [INFO] [GETTER] Y.Nathan ask if is debter
-2016-02-08 22:25:00,572 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:25:00,588 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:25:00,588 - [INFO] [GETTER] <DATA>
-2016-02-08 22:25:20,576 - [INFO] [GETTER] Y.Nathan ask if is debter
-2016-02-08 22:25:20,576 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:25:20,592 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:25:20,592 - [INFO] [GETTER] <DATA>
-2016-02-08 22:25:40,571 - [INFO] [GETTER] Y.Nathan ask if is debter
-2016-02-08 22:25:40,571 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:25:40,587 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:25:40,587 - [INFO] [GETTER] <DATA>
-2016-02-08 22:26:00,578 - [INFO] [GETTER] Y.Nathan ask if is debter
-2016-02-08 22:26:00,578 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:26:00,594 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:26:00,594 - [INFO] [GETTER] <DATA>
-2016-02-08 22:26:20,576 - [INFO] [GETTER] Y.Nathan ask if is debter
-2016-02-08 22:26:20,576 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:26:20,592 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:26:20,592 - [INFO] [GETTER] <DATA>
-2016-02-08 22:26:40,570 - [INFO] [GETTER] Y.Nathan ask if is debter
-2016-02-08 22:26:40,570 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:26:40,586 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:26:40,586 - [INFO] [GETTER] <DATA>
-2016-02-08 22:27:00,578 - [INFO] [GETTER] Y.Nathan ask if is debter
-2016-02-08 22:27:00,578 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:27:00,578 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:27:00,593 - [INFO] [GETTER] <DATA>
-2016-02-08 22:27:20,579 - [INFO] [GETTER] Y.Nathan ask if is debter
-2016-02-08 22:27:20,579 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:27:20,594 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:27:20,594 - [INFO] [GETTER] <DATA>
-2016-02-08 22:27:40,571 - [INFO] [GETTER] Y.Nathan ask if is debter
-2016-02-08 22:27:40,571 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:27:40,586 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:27:40,586 - [INFO] [GETTER] <DATA>
-2016-02-08 22:28:01,797 - [INFO] database [default] connected at jdbc:mysql://localhost/yankalee
-2016-02-08 22:28:01,813 - [INFO] Application started (Dev)
-2016-02-08 22:28:01,813 - [INFO] [GETTER] Y.Nathan ask if is debter
-2016-02-08 22:28:01,813 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:28:01,813 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:28:01,813 - [INFO] [GETTER] <DATA>
-2016-02-08 22:28:20,567 - [INFO] [GETTER] Y.Nathan ask if is debter
-2016-02-08 22:28:20,567 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:28:20,582 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:28:20,582 - [INFO] [GETTER] <DATA>
-2016-02-08 22:28:40,572 - [INFO] [GETTER] Y.Nathan ask if is debter
-2016-02-08 22:28:40,572 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:28:40,587 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:28:40,587 - [INFO] [GETTER] <DATA>
-2016-02-08 22:29:00,573 - [INFO] [GETTER] Y.Nathan ask if is debter
-2016-02-08 22:29:00,573 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:29:00,588 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:29:00,588 - [INFO] [GETTER] <DATA>
-2016-02-08 22:29:20,567 - [INFO] [GETTER] Y.Nathan ask if is debter
-2016-02-08 22:29:20,567 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:29:20,582 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:29:20,582 - [INFO] [GETTER] <DATA>
-2016-02-08 22:29:40,572 - [INFO] [GETTER] Y.Nathan ask if is debter
-2016-02-08 22:29:40,572 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:29:40,587 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:29:40,587 - [INFO] [GETTER] <DATA>
-2016-02-08 22:30:00,579 - [INFO] [GETTER] Y.Nathan ask if is debter
-2016-02-08 22:30:00,579 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:30:00,594 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:30:00,594 - [INFO] [GETTER] <DATA>
-2016-02-08 22:30:20,572 - [INFO] [GETTER] Y.Nathan ask if is debter
-2016-02-08 22:30:20,572 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:30:20,572 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:30:20,572 - [INFO] [GETTER] <DATA>
-2016-02-08 22:30:40,573 - [INFO] [GETTER] Y.Nathan ask if is debter
-2016-02-08 22:30:40,573 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:30:40,589 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:30:40,589 - [INFO] [GETTER] <DATA>
-2016-02-08 22:31:00,568 - [INFO] [GETTER] Y.Nathan ask if is debter
-2016-02-08 22:31:00,568 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:31:00,568 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:31:00,568 - [INFO] [GETTER] <DATA>
-2016-02-08 22:31:20,571 - [INFO] [GETTER] Y.Nathan ask if is debter
-2016-02-08 22:31:20,571 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:31:20,571 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:31:20,571 - [INFO] [GETTER] <DATA>
-2016-02-08 22:31:40,573 - [INFO] [GETTER] Y.Nathan ask if is debter
-2016-02-08 22:31:40,573 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:31:40,589 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:31:40,589 - [INFO] [GETTER] <DATA>
-2016-02-08 22:32:00,576 - [INFO] [GETTER] Y.Nathan ask if is debter
-2016-02-08 22:32:00,576 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:32:00,592 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:32:00,592 - [INFO] [GETTER] <DATA>
-2016-02-08 22:32:20,574 - [INFO] [GETTER] Y.Nathan ask if is debter
-2016-02-08 22:32:20,574 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:32:20,590 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:32:20,590 - [INFO] [GETTER] <DATA>
-2016-02-08 22:32:40,566 - [INFO] [GETTER] Y.Nathan ask if is debter
-2016-02-08 22:32:40,566 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:32:40,582 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:32:40,582 - [INFO] [GETTER] <DATA>
-2016-02-08 22:33:00,568 - [INFO] [GETTER] Y.Nathan ask if is debter
-2016-02-08 22:33:00,568 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:33:00,574 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:33:00,574 - [INFO] [GETTER] <DATA>
-2016-02-08 22:33:20,573 - [INFO] [GETTER] Y.Nathan ask if is debter
-2016-02-08 22:33:20,574 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:33:20,589 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:33:20,590 - [INFO] [GETTER] <DATA>
-2016-02-08 22:33:40,569 - [INFO] [GETTER] Y.Nathan ask if is debter
-2016-02-08 22:33:40,569 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:33:40,569 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:33:40,569 - [INFO] [GETTER] <DATA>
-2016-02-08 22:34:00,575 - [INFO] [GETTER] Y.Nathan ask if is debter
-2016-02-08 22:34:00,575 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:34:00,590 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:34:00,590 - [INFO] [GETTER] <DATA>
-2016-02-08 22:34:18,106 - [INFO] <BUSINESS_LOGIC> Get is user_name already exist
-2016-02-08 22:34:18,106 - [INFO] <DATA_BASE> Get User-Names
-2016-02-08 22:34:18,153 - [INFO] <BUSINESS_LOGIC> Get is email already exist
-2016-02-08 22:34:18,153 - [INFO] <DATA_BASE> Get Emails
-2016-02-08 22:40:53,030 - [INFO] database [default] connected at jdbc:mysql://localhost/yankalee
-2016-02-08 22:40:53,033 - [INFO] Application started (Dev)
-2016-02-08 22:40:53,039 - [INFO] [GETTER] david ask if is debter
-2016-02-08 22:40:53,040 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:40:53,044 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:40:53,044 - [INFO] [GETTER] <DATA>
-2016-02-08 22:49:14,872 - [INFO] <SETTER> Register new user : 
-============================
-For : =>>
-User name : nathan
-First name : a
-Last name : a
-Telephone : 0
-Email : y@gmail.com
-Password : a
-Birthdate : 1990-11-16
-============================
-
-2016-02-08 22:49:14,872 - [INFO] <BUISNESS_LOGIC> Register new user : 
-2016-02-08 22:49:14,872 - [INFO] ============================
-2016-02-08 22:49:14,872 - [INFO] For : =>>
-2016-02-08 22:49:14,872 - [INFO] User name : nathan
-2016-02-08 22:49:14,872 - [INFO] First name : a
-2016-02-08 22:49:14,872 - [INFO] Last name : a
-2016-02-08 22:49:14,872 - [INFO] Telephone : 0
-2016-02-08 22:49:14,872 - [INFO] Email : y@gmail.com
-2016-02-08 22:49:14,872 - [INFO] Password : a
-2016-02-08 22:49:14,872 - [INFO] Birthdate : 1990-11-16
-2016-02-08 22:49:14,872 - [INFO] ============================
-2016-02-08 22:49:14,872 - [INFO] <BUSINESS_LOGIC> Get date by string
-2016-02-08 22:49:14,872 - [INFO]  22:49:14 <SETTER> Register new user : 
-2016-02-08 22:49:14,888 - [INFO]  Insert new user to the data-base
-2016-02-08 22:49:15,036 - [INFO] <BUSINESS_LOGIC> Get users
-2016-02-08 22:49:15,036 - [INFO] <BUSINESS_LOGIC> Get Id by name
-2016-02-08 22:49:15,043 - [INFO] <DATA_BASE> Get User-Names
-2016-02-08 22:49:15,053 - [INFO] <DATA_BASE> Get Users
-2016-02-08 22:49:15,060 - [INFO] <DATA_BASE> Get Gelts
-2016-02-08 22:49:15,061 - [INFO] { "debts":[ ]}
-2016-02-08 22:49:17,169 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:49:17,169 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:49:17,184 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:49:17,184 - [INFO] [GETTER] <DATA>
-2016-02-08 22:49:35,029 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:49:35,029 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:49:35,045 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:49:35,045 - [INFO] [GETTER] <DATA>
-2016-02-08 22:49:37,170 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:49:37,170 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:49:37,186 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:49:37,186 - [INFO] [GETTER] <DATA>
-2016-02-08 22:49:55,035 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:49:55,035 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:49:55,051 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:49:55,051 - [INFO] [GETTER] <DATA>
-2016-02-08 22:49:57,176 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:49:57,176 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:49:57,192 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:49:57,192 - [INFO] [GETTER] <DATA>
-2016-02-08 22:50:15,023 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:50:15,023 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:50:15,039 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:50:15,039 - [INFO] [GETTER] <DATA>
-2016-02-08 22:50:17,165 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:50:17,165 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:50:17,180 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:50:17,180 - [INFO] [GETTER] <DATA>
-2016-02-08 22:50:35,027 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:50:35,027 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:50:35,043 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:50:35,043 - [INFO] [GETTER] <DATA>
-2016-02-08 22:50:37,169 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:50:37,169 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:50:37,184 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:50:37,184 - [INFO] [GETTER] <DATA>
-2016-02-08 22:50:55,020 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:50:55,020 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:50:55,035 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:50:55,035 - [INFO] [GETTER] <DATA>
-2016-02-08 22:50:57,176 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:50:57,176 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:50:57,192 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:50:57,192 - [INFO] [GETTER] <DATA>
-2016-02-08 22:51:15,023 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:51:15,023 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:51:15,039 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:51:15,039 - [INFO] [GETTER] <DATA>
-2016-02-08 22:51:17,165 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:51:17,165 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:51:17,180 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:51:17,180 - [INFO] [GETTER] <DATA>
-2016-02-08 22:51:35,028 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:51:35,028 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:51:35,043 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:51:35,043 - [INFO] [GETTER] <DATA>
-2016-02-08 22:51:37,169 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:51:37,169 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:51:37,185 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:51:37,185 - [INFO] [GETTER] <DATA>
-2016-02-08 22:51:55,033 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:51:55,033 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:51:55,048 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:51:55,048 - [INFO] [GETTER] <DATA>
-2016-02-08 22:51:57,174 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:51:57,174 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:51:57,190 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:51:57,190 - [INFO] [GETTER] <DATA>
-2016-02-08 22:52:15,030 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:52:15,030 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:52:15,045 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:52:15,045 - [INFO] [GETTER] <DATA>
-2016-02-08 22:52:17,171 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:52:17,171 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:52:17,187 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:52:17,187 - [INFO] [GETTER] <DATA>
-2016-02-08 22:52:35,026 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:52:35,026 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:52:35,042 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:52:35,042 - [INFO] [GETTER] <DATA>
-2016-02-08 22:52:37,167 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:52:37,167 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:52:37,183 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:52:37,183 - [INFO] [GETTER] <DATA>
-2016-02-08 22:52:55,032 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:52:55,032 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:52:55,047 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:52:55,047 - [INFO] [GETTER] <DATA>
-2016-02-08 22:52:57,173 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:52:57,173 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:52:57,188 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:52:57,188 - [INFO] [GETTER] <DATA>
-2016-02-08 22:53:15,029 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:53:15,029 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:53:15,045 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:53:15,045 - [INFO] [GETTER] <DATA>
-2016-02-08 22:53:17,170 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:53:17,170 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:53:17,186 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:53:17,186 - [INFO] [GETTER] <DATA>
-2016-02-08 22:53:35,024 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:53:35,024 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:53:35,040 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:53:35,040 - [INFO] [GETTER] <DATA>
-2016-02-08 22:53:37,166 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:53:37,166 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:53:37,181 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:53:37,181 - [INFO] [GETTER] <DATA>
-2016-02-08 22:53:55,033 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:53:55,033 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:53:55,049 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:53:55,049 - [INFO] [GETTER] <DATA>
-2016-02-08 22:53:57,174 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:53:57,174 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:53:57,190 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:53:57,190 - [INFO] [GETTER] <DATA>
-2016-02-08 22:54:15,025 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:54:15,025 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:54:15,041 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:54:15,041 - [INFO] [GETTER] <DATA>
-2016-02-08 22:54:17,166 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:54:17,166 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:54:17,182 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:54:17,182 - [INFO] [GETTER] <DATA>
-2016-02-08 22:54:35,021 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:54:35,021 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:54:35,036 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:54:35,036 - [INFO] [GETTER] <DATA>
-2016-02-08 22:54:37,178 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:54:37,178 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:54:37,193 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:54:37,193 - [INFO] [GETTER] <DATA>
-2016-02-08 22:54:55,026 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:54:55,026 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:54:55,042 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:54:55,042 - [INFO] [GETTER] <DATA>
-2016-02-08 22:54:57,167 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:54:57,167 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:54:57,183 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:54:57,183 - [INFO] [GETTER] <DATA>
-2016-02-08 22:55:15,031 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:55:15,031 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:55:15,046 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:55:15,046 - [INFO] [GETTER] <DATA>
-2016-02-08 22:55:17,172 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:55:17,172 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:55:17,187 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:55:17,187 - [INFO] [GETTER] <DATA>
-2016-02-08 22:55:35,020 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:55:35,020 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:55:35,035 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:55:35,035 - [INFO] [GETTER] <DATA>
-2016-02-08 22:55:37,176 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:55:37,176 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:55:37,192 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:55:37,192 - [INFO] [GETTER] <DATA>
-2016-02-08 22:55:55,024 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:55:55,024 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:55:55,040 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:55:55,040 - [INFO] [GETTER] <DATA>
-2016-02-08 22:55:57,166 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:55:57,166 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:55:57,181 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:55:57,181 - [INFO] [GETTER] <DATA>
-2016-02-08 22:56:15,023 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:56:15,023 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:56:15,039 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:56:15,039 - [INFO] [GETTER] <DATA>
-2016-02-08 22:56:17,164 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:56:17,164 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:56:17,180 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:56:17,180 - [INFO] [GETTER] <DATA>
-2016-02-08 22:56:35,020 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:56:35,020 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:56:35,036 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:56:35,036 - [INFO] [GETTER] <DATA>
-2016-02-08 22:56:37,177 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:56:37,177 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:56:37,192 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:56:37,192 - [INFO] [GETTER] <DATA>
-2016-02-08 22:56:55,028 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:56:55,028 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:56:55,044 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:56:55,044 - [INFO] [GETTER] <DATA>
-2016-02-08 22:56:57,170 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:56:57,170 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:56:57,185 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:56:57,185 - [INFO] [GETTER] <DATA>
-2016-02-08 22:57:15,023 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:57:15,023 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:57:15,023 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:57:15,023 - [INFO] [GETTER] <DATA>
-2016-02-08 22:57:17,175 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:57:17,175 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:57:17,175 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:57:17,175 - [INFO] [GETTER] <DATA>
-2016-02-08 22:57:35,033 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:57:35,033 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:57:35,033 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:57:35,033 - [INFO] [GETTER] <DATA>
-2016-02-08 22:57:37,171 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:57:37,171 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:57:37,171 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:57:37,171 - [INFO] [GETTER] <DATA>
-2016-02-08 22:57:55,026 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:57:55,026 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:57:55,541 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:57:55,541 - [INFO] [GETTER] <DATA>
-2016-02-08 22:57:57,174 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:57:57,174 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:57:57,533 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:57:57,533 - [INFO] [GETTER] <DATA>
-2016-02-08 22:58:15,034 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:58:15,034 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:58:15,363 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:58:15,363 - [INFO] [GETTER] <DATA>
-2016-02-08 22:58:17,174 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:58:17,174 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:58:17,705 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:58:17,705 - [INFO] [GETTER] <DATA>
-2016-02-08 22:58:35,033 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:58:35,033 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:58:35,345 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:58:35,345 - [INFO] [GETTER] <DATA>
-2016-02-08 22:58:37,172 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:58:37,172 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:58:37,703 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:58:37,703 - [INFO] [GETTER] <DATA>
-2016-02-08 22:58:55,026 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:58:55,026 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:58:55,338 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:58:55,338 - [INFO] [GETTER] <DATA>
-2016-02-08 22:58:57,176 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:58:57,176 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:58:57,551 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:58:57,551 - [INFO] [GETTER] <DATA>
-2016-02-08 22:59:15,031 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:59:15,031 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:59:15,406 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:59:15,406 - [INFO] [GETTER] <DATA>
-2016-02-08 22:59:17,168 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:59:17,168 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:59:17,511 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:59:17,511 - [INFO] [GETTER] <DATA>
-2016-02-08 22:59:35,028 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:59:35,028 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:59:35,028 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:59:35,028 - [INFO] [GETTER] <DATA>
-2016-02-08 22:59:37,162 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:59:37,162 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:59:37,162 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:59:37,162 - [INFO] [GETTER] <DATA>
-2016-02-08 22:59:55,034 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:59:55,034 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:59:55,034 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:59:55,034 - [INFO] [GETTER] <DATA>
-2016-02-08 22:59:57,171 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 22:59:57,171 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 22:59:57,171 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 22:59:57,171 - [INFO] [GETTER] <DATA>
-2016-02-08 23:00:15,022 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:00:15,022 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:00:15,022 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:00:15,022 - [INFO] [GETTER] <DATA>
-2016-02-08 23:00:17,173 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:00:17,173 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:00:17,173 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:00:17,173 - [INFO] [GETTER] <DATA>
-2016-02-08 23:00:35,031 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:00:35,031 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:00:35,031 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:00:35,031 - [INFO] [GETTER] <DATA>
-2016-02-08 23:00:37,167 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:00:37,167 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:00:37,167 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:00:37,167 - [INFO] [GETTER] <DATA>
-2016-02-08 23:00:55,021 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:00:55,021 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:00:55,021 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:00:55,021 - [INFO] [GETTER] <DATA>
-2016-02-08 23:00:57,171 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:00:57,171 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:00:57,171 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:00:57,171 - [INFO] [GETTER] <DATA>
-2016-02-08 23:01:15,032 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:01:15,032 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:01:15,032 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:01:15,032 - [INFO] [GETTER] <DATA>
-2016-02-08 23:01:17,165 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:01:17,165 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:01:17,165 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:01:17,165 - [INFO] [GETTER] <DATA>
-2016-02-08 23:01:35,030 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:01:35,030 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:01:35,030 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:01:35,030 - [INFO] [GETTER] <DATA>
-2016-02-08 23:01:37,164 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:01:37,164 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:01:37,164 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:01:37,164 - [INFO] [GETTER] <DATA>
-2016-02-08 23:01:55,025 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:01:55,025 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:01:55,025 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:01:55,025 - [INFO] [GETTER] <DATA>
-2016-02-08 23:01:57,175 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:01:57,175 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:01:57,175 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:01:57,175 - [INFO] [GETTER] <DATA>
-2016-02-08 23:02:15,030 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:02:15,030 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:02:15,030 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:02:15,030 - [INFO] [GETTER] <DATA>
-2016-02-08 23:02:17,165 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:02:17,165 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:02:17,165 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:02:17,165 - [INFO] [GETTER] <DATA>
-2016-02-08 23:02:35,029 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:02:35,029 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:02:35,029 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:02:35,029 - [INFO] [GETTER] <DATA>
-2016-02-08 23:02:37,164 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:02:37,164 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:02:37,164 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:02:37,164 - [INFO] [GETTER] <DATA>
-2016-02-08 23:02:55,034 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:02:55,034 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:02:55,034 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:02:55,034 - [INFO] [GETTER] <DATA>
-2016-02-08 23:02:57,170 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:02:57,170 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:02:57,170 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:02:57,170 - [INFO] [GETTER] <DATA>
-2016-02-08 23:03:15,028 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:03:15,028 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:03:15,028 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:03:15,028 - [INFO] [GETTER] <DATA>
-2016-02-08 23:03:17,164 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:03:17,164 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:03:17,164 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:03:17,164 - [INFO] [GETTER] <DATA>
-2016-02-08 23:03:35,026 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:03:35,026 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:03:35,026 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:03:35,026 - [INFO] [GETTER] <DATA>
-2016-02-08 23:03:37,176 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:03:37,176 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:03:37,176 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:03:37,176 - [INFO] [GETTER] <DATA>
-2016-02-08 23:03:55,030 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:03:55,030 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:03:55,030 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:03:55,030 - [INFO] [GETTER] <DATA>
-2016-02-08 23:03:57,165 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:03:57,165 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:03:57,165 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:03:57,165 - [INFO] [GETTER] <DATA>
-2016-02-08 23:04:15,025 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:04:15,025 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:04:15,025 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:04:15,025 - [INFO] [GETTER] <DATA>
-2016-02-08 23:04:17,175 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:04:17,175 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:04:17,175 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:04:17,175 - [INFO] [GETTER] <DATA>
-2016-02-08 23:04:35,022 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:04:35,022 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:04:35,022 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:04:35,022 - [INFO] [GETTER] <DATA>
-2016-02-08 23:04:37,172 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:04:37,172 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:04:37,172 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:04:37,172 - [INFO] [GETTER] <DATA>
-2016-02-08 23:04:55,027 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:04:55,027 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:04:55,027 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:04:55,027 - [INFO] [GETTER] <DATA>
-2016-02-08 23:04:57,178 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:04:57,178 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:04:57,179 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:04:57,179 - [INFO] [GETTER] <DATA>
-2016-02-08 23:05:15,031 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:05:15,031 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:05:15,031 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:05:15,031 - [INFO] [GETTER] <DATA>
-2016-02-08 23:05:17,166 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:05:17,166 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:05:17,166 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:05:17,166 - [INFO] [GETTER] <DATA>
-2016-02-08 23:05:35,036 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:05:35,036 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:05:35,036 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:05:35,036 - [INFO] [GETTER] <DATA>
-2016-02-08 23:05:37,170 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:05:37,170 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:05:37,170 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:05:37,170 - [INFO] [GETTER] <DATA>
-2016-02-08 23:05:55,032 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:05:55,032 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:05:55,032 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:05:55,032 - [INFO] [GETTER] <DATA>
-2016-02-08 23:05:57,165 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:05:57,165 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:05:57,181 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:05:57,181 - [INFO] [GETTER] <DATA>
-2016-02-08 23:06:15,020 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:06:15,020 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:06:15,020 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:06:15,020 - [INFO] [GETTER] <DATA>
-2016-02-08 23:06:17,172 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:06:17,172 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:06:17,172 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:06:17,172 - [INFO] [GETTER] <DATA>
-2016-02-08 23:06:35,035 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:06:35,035 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:06:35,035 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:06:35,035 - [INFO] [GETTER] <DATA>
-2016-02-08 23:06:37,170 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:06:37,170 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:06:37,170 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:06:37,170 - [INFO] [GETTER] <DATA>
-2016-02-08 23:06:55,025 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:06:55,025 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:06:55,025 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:06:55,025 - [INFO] [GETTER] <DATA>
-2016-02-08 23:06:57,175 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:06:57,175 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:06:57,175 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:06:57,175 - [INFO] [GETTER] <DATA>
-2016-02-08 23:07:15,035 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:07:15,035 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:07:15,035 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:07:15,035 - [INFO] [GETTER] <DATA>
-2016-02-08 23:07:17,171 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:07:17,171 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:07:17,171 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:07:17,171 - [INFO] [GETTER] <DATA>
-2016-02-08 23:07:35,034 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:07:35,034 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:07:35,034 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:07:35,034 - [INFO] [GETTER] <DATA>
-2016-02-08 23:07:37,168 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:07:37,168 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:07:37,168 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:07:37,168 - [INFO] [GETTER] <DATA>
-2016-02-08 23:07:55,022 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:07:55,022 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:07:55,022 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:07:55,022 - [INFO] [GETTER] <DATA>
-2016-02-08 23:07:57,172 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:07:57,172 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:07:57,172 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:07:57,172 - [INFO] [GETTER] <DATA>
-2016-02-08 23:08:15,033 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:08:15,033 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:08:15,799 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:08:15,799 - [INFO] [GETTER] <DATA>
-2016-02-08 23:08:17,174 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:08:17,174 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:08:17,596 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:08:17,596 - [INFO] [GETTER] <DATA>
-2016-02-08 23:08:35,031 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:08:35,031 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:08:35,515 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:08:35,515 - [INFO] [GETTER] <DATA>
-2016-02-08 23:08:37,169 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:08:37,169 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:08:37,560 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:08:37,560 - [INFO] [GETTER] <DATA>
-2016-02-08 23:08:55,025 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:08:55,025 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:08:55,525 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:08:55,525 - [INFO] [GETTER] <DATA>
-2016-02-08 23:08:57,179 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:08:57,179 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:08:57,632 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:08:57,632 - [INFO] [GETTER] <DATA>
-2016-02-08 23:09:15,030 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:09:15,030 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:09:15,342 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:09:15,342 - [INFO] [GETTER] <DATA>
-2016-02-08 23:09:17,168 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:09:17,168 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:09:17,590 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:09:17,590 - [INFO] [GETTER] <DATA>
-2016-02-08 23:09:35,027 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:09:35,027 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:09:35,433 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:09:35,433 - [INFO] [GETTER] <DATA>
-2016-02-08 23:09:37,176 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:09:37,176 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:09:37,708 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:09:37,708 - [INFO] [GETTER] <DATA>
-2016-02-08 23:09:55,022 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:09:55,022 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:09:55,037 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:09:55,037 - [INFO] [GETTER] <DATA>
-2016-02-08 23:09:57,163 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:09:57,163 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:09:57,178 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:09:57,178 - [INFO] [GETTER] <DATA>
-2016-02-08 23:10:15,025 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:10:15,025 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:10:15,040 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:10:15,040 - [INFO] [GETTER] <DATA>
-2016-02-08 23:10:17,172 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:10:17,172 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:10:17,188 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:10:17,188 - [INFO] [GETTER] <DATA>
-2016-02-08 23:10:35,034 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:10:35,034 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:10:35,034 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:10:35,034 - [INFO] [GETTER] <DATA>
-2016-02-08 23:10:37,178 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:10:37,178 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:10:37,179 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:10:37,179 - [INFO] [GETTER] <DATA>
-2016-02-08 23:10:55,032 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:10:55,032 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:10:55,454 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:10:55,454 - [INFO] [GETTER] <DATA>
-2016-02-08 23:10:57,168 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:10:57,168 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:10:57,574 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:10:57,574 - [INFO] [GETTER] <DATA>
-2016-02-08 23:11:15,021 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:11:15,021 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:11:15,552 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:11:15,552 - [INFO] [GETTER] <DATA>
-2016-02-08 23:11:17,177 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:11:17,177 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:11:17,505 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:11:17,505 - [INFO] [GETTER] <DATA>
-2016-02-08 23:11:35,034 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:11:35,034 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:11:35,472 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:11:35,472 - [INFO] [GETTER] <DATA>
-2016-02-08 23:11:37,165 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:11:37,165 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:11:37,415 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:11:37,415 - [INFO] [GETTER] <DATA>
-2016-02-08 23:11:55,029 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:11:55,029 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:11:55,419 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:11:55,419 - [INFO] [GETTER] <DATA>
-2016-02-08 23:11:57,175 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:11:57,175 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:11:57,566 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:11:57,566 - [INFO] [GETTER] <DATA>
-2016-02-08 23:12:15,035 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:12:15,035 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:12:15,051 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:12:15,051 - [INFO] [GETTER] <DATA>
-2016-02-08 23:12:17,178 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:12:17,178 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:12:17,178 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:12:17,178 - [INFO] [GETTER] <DATA>
-2016-02-08 23:12:35,032 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:12:35,032 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:12:35,814 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:12:35,814 - [INFO] [GETTER] <DATA>
-2016-02-08 23:12:37,174 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:12:37,268 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:12:37,924 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:12:37,924 - [INFO] [GETTER] <DATA>
-2016-02-08 23:12:55,022 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:12:55,022 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:12:55,522 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:12:55,522 - [INFO] [GETTER] <DATA>
-2016-02-08 23:12:57,163 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:12:57,163 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:12:57,538 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:12:57,538 - [INFO] [GETTER] <DATA>
-2016-02-08 23:13:15,033 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:13:15,033 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:13:15,346 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:13:15,346 - [INFO] [GETTER] <DATA>
-2016-02-08 23:13:17,174 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:13:17,174 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:13:17,940 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:13:17,955 - [INFO] [GETTER] <DATA>
-2016-02-08 23:13:35,030 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:13:35,030 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:13:35,733 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:13:35,733 - [INFO] [GETTER] <DATA>
-2016-02-08 23:13:37,171 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:13:37,171 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:13:37,625 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:13:37,625 - [INFO] [GETTER] <DATA>
-2016-02-08 23:13:55,033 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:13:55,033 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:13:55,393 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:13:55,393 - [INFO] [GETTER] <DATA>
-2016-02-08 23:13:57,176 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:13:57,176 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:13:57,473 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:13:57,473 - [INFO] [GETTER] <DATA>
-2016-02-08 23:14:15,026 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:14:15,026 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:14:15,026 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:14:15,026 - [INFO] [GETTER] <DATA>
-2016-02-08 23:14:17,177 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:14:17,177 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:14:17,192 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:14:17,192 - [INFO] [GETTER] <DATA>
-2016-02-08 23:14:35,027 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:14:35,027 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:14:35,043 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:14:35,043 - [INFO] [GETTER] <DATA>
-2016-02-08 23:14:37,174 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:14:37,174 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:14:37,174 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:14:37,174 - [INFO] [GETTER] <DATA>
-2016-02-08 23:14:55,021 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:14:55,021 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:14:55,021 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:14:55,021 - [INFO] [GETTER] <DATA>
-2016-02-08 23:14:57,177 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:14:57,177 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:14:57,193 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:14:57,193 - [INFO] [GETTER] <DATA>
-2016-02-08 23:15:15,024 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:15:15,024 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:15:15,040 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:15:15,040 - [INFO] [GETTER] <DATA>
-2016-02-08 23:15:18,175 - [INFO] database [default] connected at jdbc:mysql://localhost/yankalee
-2016-02-08 23:15:18,191 - [INFO] Application started (Dev)
-2016-02-08 23:15:18,191 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:15:18,191 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:15:18,207 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:15:18,207 - [INFO] [GETTER] <DATA>
-2016-02-08 23:15:35,030 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:15:35,030 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:15:35,030 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:15:35,030 - [INFO] [GETTER] <DATA>
-2016-02-08 23:15:37,164 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:15:37,164 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:15:37,164 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:15:37,164 - [INFO] [GETTER] <DATA>
-2016-02-08 23:15:55,028 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:15:55,028 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:15:55,028 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:15:55,028 - [INFO] [GETTER] <DATA>
-2016-02-08 23:15:57,177 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:15:57,177 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:15:57,193 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:15:57,193 - [INFO] [GETTER] <DATA>
-2016-02-08 23:16:15,031 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:16:15,031 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:16:15,047 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:16:15,047 - [INFO] [GETTER] <DATA>
-2016-02-08 23:16:17,172 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:16:17,172 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:16:17,188 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:16:17,188 - [INFO] [GETTER] <DATA>
-2016-02-08 23:16:35,029 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:16:35,029 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:16:35,029 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:16:35,029 - [INFO] [GETTER] <DATA>
-2016-02-08 23:16:37,170 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:16:37,170 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:16:37,186 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:16:37,186 - [INFO] [GETTER] <DATA>
-2016-02-08 23:16:55,034 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:16:55,034 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:16:55,049 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:16:55,049 - [INFO] [GETTER] <DATA>
-2016-02-08 23:16:57,178 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:16:57,178 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:16:57,193 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:16:57,193 - [INFO] [GETTER] <DATA>
-2016-02-08 23:17:15,031 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:17:15,031 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:17:15,046 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:17:15,046 - [INFO] [GETTER] <DATA>
-2016-02-08 23:17:17,172 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:17:17,172 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:17:17,187 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:17:17,187 - [INFO] [GETTER] <DATA>
-2016-02-08 23:17:35,028 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:17:35,028 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:17:35,044 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:17:35,044 - [INFO] [GETTER] <DATA>
-2016-02-08 23:17:37,169 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:17:37,169 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:17:37,185 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:17:37,185 - [INFO] [GETTER] <DATA>
-2016-02-08 23:17:55,032 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:17:55,032 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:17:55,047 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:17:55,047 - [INFO] [GETTER] <DATA>
-2016-02-08 23:17:57,173 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:17:57,173 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:17:57,188 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:17:57,188 - [INFO] [GETTER] <DATA>
-2016-02-08 23:18:15,030 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:18:15,030 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:18:15,045 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:18:15,045 - [INFO] [GETTER] <DATA>
-2016-02-08 23:18:17,171 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:18:17,171 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:18:17,186 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:18:17,186 - [INFO] [GETTER] <DATA>
-2016-02-08 23:18:35,026 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:18:35,026 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:18:35,042 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:18:35,042 - [INFO] [GETTER] <DATA>
-2016-02-08 23:18:37,167 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:18:37,167 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:18:37,183 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:18:37,183 - [INFO] [GETTER] <DATA>
-2016-02-08 23:18:55,030 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:18:55,030 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:18:55,045 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:18:55,045 - [INFO] [GETTER] <DATA>
-2016-02-08 23:18:57,171 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:18:57,171 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:18:57,186 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:18:57,186 - [INFO] [GETTER] <DATA>
-2016-02-08 23:19:15,027 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:19:15,027 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:19:15,042 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:19:15,042 - [INFO] [GETTER] <DATA>
-2016-02-08 23:19:17,168 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:19:17,168 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:19:17,184 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:19:17,184 - [INFO] [GETTER] <DATA>
-2016-02-08 23:19:35,036 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:19:35,036 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:19:35,051 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:19:35,051 - [INFO] [GETTER] <DATA>
-2016-02-08 23:19:37,177 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:19:37,177 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:19:37,192 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:19:37,192 - [INFO] [GETTER] <DATA>
-2016-02-08 23:19:55,025 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:19:55,025 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:19:55,040 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:19:55,040 - [INFO] [GETTER] <DATA>
-2016-02-08 23:19:57,166 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:19:57,166 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:19:57,181 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:19:57,181 - [INFO] [GETTER] <DATA>
-2016-02-08 23:20:15,034 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:20:15,034 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:20:15,049 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:20:15,049 - [INFO] [GETTER] <DATA>
-2016-02-08 23:20:17,175 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:20:17,175 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:20:17,190 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:20:17,190 - [INFO] [GETTER] <DATA>
-2016-02-08 23:20:35,022 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:20:35,022 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:20:35,037 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:20:35,037 - [INFO] [GETTER] <DATA>
-2016-02-08 23:20:37,162 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:20:37,162 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:20:37,178 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:20:37,178 - [INFO] [GETTER] <DATA>
-2016-02-08 23:20:55,025 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:20:55,025 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:20:55,041 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:20:55,041 - [INFO] [GETTER] <DATA>
-2016-02-08 23:20:57,166 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:20:57,166 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:20:57,181 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:20:57,181 - [INFO] [GETTER] <DATA>
-2016-02-08 23:21:15,024 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:21:15,024 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:21:15,039 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:21:15,039 - [INFO] [GETTER] <DATA>
-2016-02-08 23:21:17,165 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:21:17,165 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:21:17,180 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:21:17,180 - [INFO] [GETTER] <DATA>
-2016-02-08 23:21:35,033 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:21:35,033 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:21:35,033 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:21:35,033 - [INFO] [GETTER] <DATA>
-2016-02-08 23:21:37,166 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:21:37,166 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:21:37,182 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:21:37,182 - [INFO] [GETTER] <DATA>
-2016-02-08 23:21:55,030 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:21:55,030 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:21:55,045 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:21:55,045 - [INFO] [GETTER] <DATA>
-2016-02-08 23:21:57,173 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:21:57,173 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:21:57,174 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:21:57,174 - [INFO] [GETTER] <DATA>
-2016-02-08 23:22:15,023 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:22:15,023 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:22:15,038 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:22:15,038 - [INFO] [GETTER] <DATA>
-2016-02-08 23:22:17,172 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:22:17,172 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:22:17,172 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:22:17,172 - [INFO] [GETTER] <DATA>
-2016-02-08 23:22:35,033 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:22:35,033 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:22:35,049 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:22:35,049 - [INFO] [GETTER] <DATA>
-2016-02-08 23:22:37,175 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:22:37,175 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:22:37,175 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:22:37,175 - [INFO] [GETTER] <DATA>
-2016-02-08 23:22:55,030 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:22:55,030 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:22:55,046 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:22:55,046 - [INFO] [GETTER] <DATA>
-2016-02-08 23:22:57,171 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:22:57,171 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:22:57,187 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:22:57,187 - [INFO] [GETTER] <DATA>
-2016-02-08 23:23:04,127 - [INFO] <BUSINESS_LOGIC> Get users
-2016-02-08 23:23:04,127 - [INFO] <BUSINESS_LOGIC> Get Id by name
-2016-02-08 23:23:04,143 - [INFO] <DATA_BASE> Get User-Names
-2016-02-08 23:23:04,159 - [INFO] <DATA_BASE> Get Users
-2016-02-08 23:23:04,174 - [INFO] <DATA_BASE> Get Gelts
-2016-02-08 23:23:04,174 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-02-08 23:23:04,190 - [INFO] <DATA_BASE> Get Users
-2016-02-08 23:23:04,190 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-02-08 23:23:04,190 - [INFO] <DATA_BASE> Get Users
-2016-02-08 23:23:04,190 - [INFO] <BUSINESS_LOGIC> Get debt david : 1000 : Hektor
-2016-02-08 23:23:04,190 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-02-08 23:23:04,205 - [INFO] <DATA_BASE> Get Users
-2016-02-08 23:23:04,205 - [INFO] <BUSINESS_LOGIC> Get Name by Id
-2016-02-08 23:23:04,205 - [INFO] <DATA_BASE> Get Users
-2016-02-08 23:23:04,205 - [INFO] { "debts":[ {"Debter":"david","Amount":"1000","Entitled":"Hektor"} ]}
-2016-02-08 23:23:15,035 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:23:15,035 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:23:15,051 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:23:15,051 - [INFO] [GETTER] <DATA>
-2016-02-08 23:23:17,176 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:23:17,176 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:23:17,176 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:23:17,176 - [INFO] [GETTER] <DATA>
-2016-02-08 23:23:24,567 - [INFO] [GETTER] david ask if is debter
-2016-02-08 23:23:24,567 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:23:24,567 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:23:24,567 - [INFO] [GETTER] <DATA>
-2016-02-08 23:23:35,033 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:23:35,033 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:23:35,048 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:23:35,048 - [INFO] [GETTER] <DATA>
-2016-02-08 23:23:37,175 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:23:37,175 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:23:37,175 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:23:37,175 - [INFO] [GETTER] <DATA>
-2016-02-08 23:23:44,558 - [INFO] [GETTER] david ask if is debter
-2016-02-08 23:23:44,558 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:23:44,574 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:23:44,574 - [INFO] [GETTER] <DATA>
-2016-02-08 23:23:55,030 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:23:55,030 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:23:55,030 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:23:55,030 - [INFO] [GETTER] <DATA>
-2016-02-08 23:23:57,164 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:23:57,164 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:23:57,164 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:23:57,164 - [INFO] [GETTER] <DATA>
-2016-02-08 23:24:04,531 - [INFO] [GETTER] david ask if is debter
-2016-02-08 23:24:04,531 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:24:04,531 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:24:04,531 - [INFO] [GETTER] <DATA>
-2016-02-08 23:24:15,033 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:24:15,033 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:24:15,048 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:24:15,048 - [INFO] [GETTER] <DATA>
-2016-02-08 23:24:17,165 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:24:17,165 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:24:17,181 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:24:17,181 - [INFO] [GETTER] <DATA>
-2016-02-08 23:24:24,550 - [INFO] [GETTER] david ask if is debter
-2016-02-08 23:24:24,550 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:24:24,550 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:24:24,550 - [INFO] [GETTER] <DATA>
-2016-02-08 23:24:35,029 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:24:35,029 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:24:35,029 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:24:35,029 - [INFO] [GETTER] <DATA>
-2016-02-08 23:24:37,172 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:24:37,172 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:24:37,188 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:24:37,188 - [INFO] [GETTER] <DATA>
-2016-02-08 23:24:45,549 - [INFO] [GETTER] david ask if is debter
-2016-02-08 23:24:45,549 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:24:45,549 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:24:45,565 - [INFO] [GETTER] <DATA>
-2016-02-08 23:24:55,035 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:24:55,035 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:24:55,051 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:24:55,051 - [INFO] [GETTER] <DATA>
-2016-02-08 23:24:57,176 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:24:57,176 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:24:57,192 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:24:57,192 - [INFO] [GETTER] <DATA>
-2016-02-08 23:25:05,569 - [INFO] [GETTER] david ask if is debter
-2016-02-08 23:25:05,569 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:25:05,569 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:25:05,569 - [INFO] [GETTER] <DATA>
-2016-02-08 23:25:15,025 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:25:15,025 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:25:15,025 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:25:15,025 - [INFO] [GETTER] <DATA>
-2016-02-08 23:25:17,174 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:25:17,174 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:25:17,189 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:25:17,189 - [INFO] [GETTER] <DATA>
-2016-02-08 23:25:25,549 - [INFO] [GETTER] david ask if is debter
-2016-02-08 23:25:25,549 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:25:25,549 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:25:25,549 - [INFO] [GETTER] <DATA>
-2016-02-08 23:25:35,020 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:25:35,020 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:25:35,020 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:25:35,020 - [INFO] [GETTER] <DATA>
-2016-02-08 23:25:37,177 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:25:37,177 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:25:37,177 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:25:37,177 - [INFO] [GETTER] <DATA>
-2016-02-08 23:25:45,533 - [INFO] [GETTER] david ask if is debter
-2016-02-08 23:25:45,533 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:25:45,533 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:25:45,533 - [INFO] [GETTER] <DATA>
-2016-02-08 23:25:55,035 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:25:55,035 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:25:55,051 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:25:55,051 - [INFO] [GETTER] <DATA>
-2016-02-08 23:25:57,176 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:25:57,176 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:25:57,192 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:25:57,192 - [INFO] [GETTER] <DATA>
-2016-02-08 23:26:15,023 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:26:15,023 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:26:15,023 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:26:15,023 - [INFO] [GETTER] <DATA>
-2016-02-08 23:26:17,173 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:26:17,173 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:26:17,188 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:26:17,188 - [INFO] [GETTER] <DATA>
-2016-02-08 23:26:35,035 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:26:35,035 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:26:35,035 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:26:35,035 - [INFO] [GETTER] <DATA>
-2016-02-08 23:26:37,171 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:26:37,171 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:26:37,171 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:26:37,171 - [INFO] [GETTER] <DATA>
-2016-02-08 23:26:55,033 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:26:55,033 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:26:55,033 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:26:55,033 - [INFO] [GETTER] <DATA>
-2016-02-08 23:26:57,172 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:26:57,172 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:26:57,172 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:26:57,172 - [INFO] [GETTER] <DATA>
-2016-02-08 23:27:15,023 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:27:15,023 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:27:15,023 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:27:15,023 - [INFO] [GETTER] <DATA>
-2016-02-08 23:27:17,165 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:27:17,165 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:27:17,165 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:27:17,165 - [INFO] [GETTER] <DATA>
-2016-02-08 23:27:35,034 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:27:35,034 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:27:35,050 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:27:35,050 - [INFO] [GETTER] <DATA>
-2016-02-08 23:27:37,175 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:27:37,175 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:27:37,191 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:27:37,191 - [INFO] [GETTER] <DATA>
-2016-02-08 23:27:55,022 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:27:55,022 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:27:55,038 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:27:55,038 - [INFO] [GETTER] <DATA>
-2016-02-08 23:27:57,163 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:27:57,163 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:27:57,179 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:27:57,179 - [INFO] [GETTER] <DATA>
-2016-02-08 23:28:15,034 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:28:15,034 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:28:15,050 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:28:15,050 - [INFO] [GETTER] <DATA>
-2016-02-08 23:28:17,176 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:28:17,176 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:28:17,176 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:28:17,176 - [INFO] [GETTER] <DATA>
-2016-02-08 23:28:35,032 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:28:35,032 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:28:35,047 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:28:35,047 - [INFO] [GETTER] <DATA>
-2016-02-08 23:28:37,173 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:28:37,173 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:28:37,189 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:28:37,189 - [INFO] [GETTER] <DATA>
-2016-02-08 23:28:55,035 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:28:55,035 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:28:55,051 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:28:55,051 - [INFO] [GETTER] <DATA>
-2016-02-08 23:28:57,177 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:28:57,177 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:28:57,177 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:28:57,177 - [INFO] [GETTER] <DATA>
-2016-02-08 23:29:15,032 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:29:15,032 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:29:15,048 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:29:15,048 - [INFO] [GETTER] <DATA>
-2016-02-08 23:29:17,173 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:29:17,173 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:29:17,189 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:29:17,189 - [INFO] [GETTER] <DATA>
-2016-02-08 23:29:35,029 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:29:35,029 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:29:35,029 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:29:35,029 - [INFO] [GETTER] <DATA>
-2016-02-08 23:29:37,179 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:29:37,179 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:29:37,179 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:29:37,179 - [INFO] [GETTER] <DATA>
-2016-02-08 23:29:55,035 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:29:55,035 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:29:55,051 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:29:55,051 - [INFO] [GETTER] <DATA>
-2016-02-08 23:29:57,177 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:29:57,177 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:29:57,177 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:29:57,177 - [INFO] [GETTER] <DATA>
-2016-02-08 23:30:15,026 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:30:15,026 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:30:15,026 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:30:15,026 - [INFO] [GETTER] <DATA>
-2016-02-08 23:30:17,174 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:30:17,174 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:30:17,190 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:30:17,190 - [INFO] [GETTER] <DATA>
-2016-02-08 23:30:35,025 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:30:35,025 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:30:35,025 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:30:35,025 - [INFO] [GETTER] <DATA>
-2016-02-08 23:30:37,167 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:30:37,167 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:30:37,167 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:30:37,167 - [INFO] [GETTER] <DATA>
-2016-02-08 23:30:55,028 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:30:55,028 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:30:55,043 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:30:55,043 - [INFO] [GETTER] <DATA>
-2016-02-08 23:30:57,170 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:30:57,170 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:30:57,170 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:30:57,170 - [INFO] [GETTER] <DATA>
-2016-02-08 23:31:15,028 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:31:15,028 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:31:15,028 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:31:15,028 - [INFO] [GETTER] <DATA>
-2016-02-08 23:31:17,177 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:31:17,177 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:31:17,177 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:31:17,177 - [INFO] [GETTER] <DATA>
-2016-02-08 23:31:35,026 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:31:35,026 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:31:35,026 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:31:35,026 - [INFO] [GETTER] <DATA>
-2016-02-08 23:31:37,176 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:31:37,176 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:31:37,176 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:31:37,176 - [INFO] [GETTER] <DATA>
-2016-02-08 23:31:55,031 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:31:55,031 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:31:55,047 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:31:55,047 - [INFO] [GETTER] <DATA>
-2016-02-08 23:31:57,173 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:31:57,173 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:31:57,173 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:31:57,173 - [INFO] [GETTER] <DATA>
-2016-02-08 23:32:15,034 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:32:15,034 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:32:15,034 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:32:15,034 - [INFO] [GETTER] <DATA>
-2016-02-08 23:32:17,177 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:32:17,177 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:32:17,177 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:32:17,177 - [INFO] [GETTER] <DATA>
-2016-02-08 23:32:35,025 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:32:35,025 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:32:35,041 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:32:35,041 - [INFO] [GETTER] <DATA>
-2016-02-08 23:32:37,166 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:32:37,166 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:32:37,166 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:32:37,166 - [INFO] [GETTER] <DATA>
-2016-02-08 23:32:55,030 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:32:55,030 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:32:55,030 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:32:55,030 - [INFO] [GETTER] <DATA>
-2016-02-08 23:32:57,166 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:32:57,166 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:32:57,166 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:32:57,166 - [INFO] [GETTER] <DATA>
-2016-02-08 23:33:15,023 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:33:15,023 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:33:15,026 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:33:15,027 - [INFO] [GETTER] <DATA>
-2016-02-08 23:33:17,165 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:33:17,165 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:33:17,169 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:33:17,169 - [INFO] [GETTER] <DATA>
-2016-02-08 23:33:35,023 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:33:35,023 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:33:35,027 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:33:35,027 - [INFO] [GETTER] <DATA>
-2016-02-08 23:33:37,173 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:33:37,173 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:33:37,173 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:33:37,173 - [INFO] [GETTER] <DATA>
-2016-02-08 23:33:55,021 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:33:55,021 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:33:55,021 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:33:55,021 - [INFO] [GETTER] <DATA>
-2016-02-08 23:33:57,165 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:33:57,165 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:33:57,169 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:33:57,169 - [INFO] [GETTER] <DATA>
-2016-02-08 23:34:15,023 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:34:15,024 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:34:15,027 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:34:15,027 - [INFO] [GETTER] <DATA>
-2016-02-08 23:34:17,166 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:34:17,166 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:34:17,166 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:34:17,166 - [INFO] [GETTER] <DATA>
-2016-02-08 23:34:35,022 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:34:35,022 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:34:35,026 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:34:35,026 - [INFO] [GETTER] <DATA>
-2016-02-08 23:34:37,167 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:34:37,167 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:34:37,183 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:34:37,183 - [INFO] [GETTER] <DATA>
-2016-02-08 23:34:55,028 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:34:55,028 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:34:55,044 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:34:55,044 - [INFO] [GETTER] <DATA>
-2016-02-08 23:34:57,169 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:34:57,169 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:34:57,169 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:34:57,169 - [INFO] [GETTER] <DATA>
-2016-02-08 23:35:15,030 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:35:15,030 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:35:15,030 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:35:15,030 - [INFO] [GETTER] <DATA>
-2016-02-08 23:35:17,173 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:35:17,173 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:35:17,173 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:35:17,173 - [INFO] [GETTER] <DATA>
-2016-02-08 23:35:35,028 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:35:35,028 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:35:35,043 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:35:35,043 - [INFO] [GETTER] <DATA>
-2016-02-08 23:35:37,168 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:35:37,168 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:35:37,168 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:35:37,168 - [INFO] [GETTER] <DATA>
-2016-02-08 23:35:55,030 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:35:55,030 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:35:55,046 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:35:55,046 - [INFO] [GETTER] <DATA>
-2016-02-08 23:35:57,172 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:35:57,172 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:35:57,172 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:35:57,172 - [INFO] [GETTER] <DATA>
-2016-02-08 23:36:15,029 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:36:15,029 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:36:15,045 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:36:15,045 - [INFO] [GETTER] <DATA>
-2016-02-08 23:36:17,165 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:36:17,165 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:36:17,165 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:36:17,165 - [INFO] [GETTER] <DATA>
-2016-02-08 23:36:35,027 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:36:35,027 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:36:35,042 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:36:35,042 - [INFO] [GETTER] <DATA>
-2016-02-08 23:36:37,168 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:36:37,168 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:36:37,183 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:36:37,183 - [INFO] [GETTER] <DATA>
-2016-02-08 23:36:55,029 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:36:55,029 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:36:55,029 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:36:55,029 - [INFO] [GETTER] <DATA>
-2016-02-08 23:36:57,170 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:36:57,170 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:36:57,170 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:36:57,170 - [INFO] [GETTER] <DATA>
-2016-02-08 23:37:15,029 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:37:15,029 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:37:15,029 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:37:15,029 - [INFO] [GETTER] <DATA>
-2016-02-08 23:37:17,178 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:37:17,178 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:37:17,178 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:37:17,178 - [INFO] [GETTER] <DATA>
-2016-02-08 23:37:35,026 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:37:35,026 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:37:35,026 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:37:35,026 - [INFO] [GETTER] <DATA>
-2016-02-08 23:37:37,176 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:37:37,176 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:37:37,176 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:37:37,176 - [INFO] [GETTER] <DATA>
-2016-02-08 23:37:55,021 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:37:55,021 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:37:55,037 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:37:55,037 - [INFO] [GETTER] <DATA>
-2016-02-08 23:37:57,168 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:37:57,168 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:37:57,184 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:37:57,184 - [INFO] [GETTER] <DATA>
-2016-02-08 23:38:15,026 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:38:15,026 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:38:15,026 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:38:15,026 - [INFO] [GETTER] <DATA>
-2016-02-08 23:38:17,177 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:38:17,177 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:38:17,177 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:38:17,177 - [INFO] [GETTER] <DATA>
-2016-02-08 23:38:35,024 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:38:35,024 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:38:35,024 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:38:35,024 - [INFO] [GETTER] <DATA>
-2016-02-08 23:38:37,173 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:38:37,173 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:38:37,188 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:38:37,188 - [INFO] [GETTER] <DATA>
-2016-02-08 23:38:55,035 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:38:55,035 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:38:55,035 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:38:55,035 - [INFO] [GETTER] <DATA>
-2016-02-08 23:38:57,173 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:38:57,173 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:38:57,174 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:38:57,174 - [INFO] [GETTER] <DATA>
-2016-02-08 23:39:15,023 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:39:15,023 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:39:15,023 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:39:15,023 - [INFO] [GETTER] <DATA>
-2016-02-08 23:39:17,172 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:39:17,172 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:39:17,172 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:39:17,172 - [INFO] [GETTER] <DATA>
-2016-02-08 23:39:35,035 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:39:35,035 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:39:35,035 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:39:35,035 - [INFO] [GETTER] <DATA>
-2016-02-08 23:39:37,176 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:39:37,176 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:39:37,191 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:39:37,191 - [INFO] [GETTER] <DATA>
-2016-02-08 23:39:55,023 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:39:55,023 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:39:55,023 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:39:55,023 - [INFO] [GETTER] <DATA>
-2016-02-08 23:39:57,172 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:39:57,172 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:39:57,172 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:39:57,172 - [INFO] [GETTER] <DATA>
-2016-02-08 23:40:15,026 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:40:15,026 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:40:15,042 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:40:15,042 - [INFO] [GETTER] <DATA>
-2016-02-08 23:40:17,167 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:40:17,167 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:40:17,182 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:40:17,182 - [INFO] [GETTER] <DATA>
-2016-02-08 23:40:35,036 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:40:35,036 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:40:35,036 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:40:35,036 - [INFO] [GETTER] <DATA>
-2016-02-08 23:40:37,173 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:40:37,173 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:40:37,173 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:40:37,173 - [INFO] [GETTER] <DATA>
-2016-02-08 23:40:55,029 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:40:55,029 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:40:55,029 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:40:55,029 - [INFO] [GETTER] <DATA>
-2016-02-08 23:40:57,178 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:40:57,178 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:40:57,178 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:40:57,178 - [INFO] [GETTER] <DATA>
-2016-02-08 23:41:15,022 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:41:15,022 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:41:15,022 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:41:15,022 - [INFO] [GETTER] <DATA>
-2016-02-08 23:41:17,172 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:41:17,172 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:41:17,172 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:41:17,172 - [INFO] [GETTER] <DATA>
-2016-02-08 23:41:35,035 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:41:35,035 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:41:35,050 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:41:35,050 - [INFO] [GETTER] <DATA>
-2016-02-08 23:41:37,177 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:41:37,177 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:41:37,177 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:41:37,177 - [INFO] [GETTER] <DATA>
-2016-02-08 23:41:55,031 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:41:55,031 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:41:55,046 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:41:55,046 - [INFO] [GETTER] <DATA>
-2016-02-08 23:41:57,173 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:41:57,173 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:41:57,173 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:41:57,173 - [INFO] [GETTER] <DATA>
-2016-02-08 23:42:15,036 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:42:15,036 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:42:15,036 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:42:15,036 - [INFO] [GETTER] <DATA>
-2016-02-08 23:42:17,170 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:42:17,170 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:42:17,170 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:42:17,170 - [INFO] [GETTER] <DATA>
-2016-02-08 23:42:35,034 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:42:35,034 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:42:35,034 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:42:35,034 - [INFO] [GETTER] <DATA>
-2016-02-08 23:42:37,168 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:42:37,168 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:42:37,168 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:42:37,168 - [INFO] [GETTER] <DATA>
-2016-02-08 23:42:55,022 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:42:55,022 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:42:55,037 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:42:55,037 - [INFO] [GETTER] <DATA>
-2016-02-08 23:42:57,163 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:42:57,163 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:42:57,179 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:42:57,179 - [INFO] [GETTER] <DATA>
-2016-02-08 23:43:15,033 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:43:15,033 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:43:15,049 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:43:15,049 - [INFO] [GETTER] <DATA>
-2016-02-08 23:43:17,174 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:43:17,174 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:43:17,190 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:43:17,190 - [INFO] [GETTER] <DATA>
-2016-02-08 23:43:35,030 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:43:35,030 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:43:35,030 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:43:35,030 - [INFO] [GETTER] <DATA>
-2016-02-08 23:43:37,169 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:43:37,169 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:43:37,169 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:43:37,169 - [INFO] [GETTER] <DATA>
-2016-02-08 23:43:55,024 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:43:55,024 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:43:55,024 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:43:55,024 - [INFO] [GETTER] <DATA>
-2016-02-08 23:43:57,173 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:43:57,173 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:43:57,173 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:43:57,173 - [INFO] [GETTER] <DATA>
-2016-02-08 23:44:15,031 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:44:15,031 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:44:15,031 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:44:15,031 - [INFO] [GETTER] <DATA>
-2016-02-08 23:44:17,166 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:44:17,166 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:44:17,166 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:44:17,166 - [INFO] [GETTER] <DATA>
-2016-02-08 23:44:35,027 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:44:35,027 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:44:35,042 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:44:35,042 - [INFO] [GETTER] <DATA>
-2016-02-08 23:44:37,168 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:44:37,168 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:44:37,168 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:44:37,168 - [INFO] [GETTER] <DATA>
-2016-02-08 23:44:55,030 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:44:55,030 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:44:55,030 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:44:55,030 - [INFO] [GETTER] <DATA>
-2016-02-08 23:44:57,174 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:44:57,174 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:44:57,174 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:44:57,174 - [INFO] [GETTER] <DATA>
-2016-02-08 23:45:15,034 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:45:15,034 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:45:15,050 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:45:15,050 - [INFO] [GETTER] <DATA>
-2016-02-08 23:45:17,175 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:45:17,175 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:45:17,191 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:45:17,191 - [INFO] [GETTER] <DATA>
-2016-02-08 23:45:35,033 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:45:35,033 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:45:35,049 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:45:35,049 - [INFO] [GETTER] <DATA>
-2016-02-08 23:45:37,174 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:45:37,174 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:45:37,190 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:45:37,190 - [INFO] [GETTER] <DATA>
-2016-02-08 23:45:55,021 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:45:55,021 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:45:55,036 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:45:55,036 - [INFO] [GETTER] <DATA>
-2016-02-08 23:45:57,178 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:45:57,178 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:45:57,193 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:45:57,193 - [INFO] [GETTER] <DATA>
-2016-02-08 23:46:15,035 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:46:15,035 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:46:15,051 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:46:15,051 - [INFO] [GETTER] <DATA>
-2016-02-08 23:46:17,176 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:46:17,176 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:46:17,192 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:46:17,192 - [INFO] [GETTER] <DATA>
-2016-02-08 23:46:35,034 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:46:35,034 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:46:35,049 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:46:35,049 - [INFO] [GETTER] <DATA>
-2016-02-08 23:46:37,175 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:46:37,175 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:46:37,191 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:46:37,191 - [INFO] [GETTER] <DATA>
-2016-02-08 23:46:55,030 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:46:55,030 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:46:55,045 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:46:55,045 - [INFO] [GETTER] <DATA>
-2016-02-08 23:46:57,171 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:46:57,171 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:46:57,187 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:46:57,187 - [INFO] [GETTER] <DATA>
-2016-02-08 23:47:15,035 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:47:15,035 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:47:15,051 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:47:15,051 - [INFO] [GETTER] <DATA>
-2016-02-08 23:47:17,176 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:47:17,176 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:47:17,192 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:47:17,192 - [INFO] [GETTER] <DATA>
-2016-02-08 23:47:35,032 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:47:35,032 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:47:35,048 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:47:35,048 - [INFO] [GETTER] <DATA>
-2016-02-08 23:47:37,174 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:47:37,174 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:47:37,189 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:47:37,189 - [INFO] [GETTER] <DATA>
-2016-02-08 23:47:55,020 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:47:55,020 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:47:55,036 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:47:55,036 - [INFO] [GETTER] <DATA>
-2016-02-08 23:47:57,170 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:47:57,170 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:47:57,186 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:47:57,186 - [INFO] [GETTER] <DATA>
-2016-02-08 23:48:15,033 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:48:15,033 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:48:15,048 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:48:15,048 - [INFO] [GETTER] <DATA>
-2016-02-08 23:48:17,174 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:48:17,174 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:48:17,189 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:48:17,189 - [INFO] [GETTER] <DATA>
-2016-02-08 23:48:35,030 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:48:35,030 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:48:35,046 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:48:35,046 - [INFO] [GETTER] <DATA>
-2016-02-08 23:48:37,171 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:48:37,171 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:48:37,187 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:48:37,187 - [INFO] [GETTER] <DATA>
-2016-02-08 23:48:55,033 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:48:55,033 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:48:55,049 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:48:55,049 - [INFO] [GETTER] <DATA>
-2016-02-08 23:48:57,174 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:48:57,174 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:48:57,190 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:48:57,190 - [INFO] [GETTER] <DATA>
-2016-02-08 23:49:15,030 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:49:15,030 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:49:15,046 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:49:15,046 - [INFO] [GETTER] <DATA>
-2016-02-08 23:49:17,171 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:49:17,171 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:49:17,187 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:49:17,187 - [INFO] [GETTER] <DATA>
-2016-02-08 23:49:35,026 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:49:35,026 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:49:35,026 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:49:35,026 - [INFO] [GETTER] <DATA>
-2016-02-08 23:49:37,168 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:49:37,168 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:49:37,168 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:49:37,168 - [INFO] [GETTER] <DATA>
-2016-02-08 23:49:55,030 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:49:55,030 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:49:55,045 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:49:55,045 - [INFO] [GETTER] <DATA>
-2016-02-08 23:49:57,171 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:49:57,171 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:49:57,186 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:49:57,186 - [INFO] [GETTER] <DATA>
-2016-02-08 23:50:15,034 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:50:15,034 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:50:15,034 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:50:15,034 - [INFO] [GETTER] <DATA>
-2016-02-08 23:50:17,169 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:50:17,169 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:50:17,184 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:50:17,184 - [INFO] [GETTER] <DATA>
-2016-02-08 23:50:35,031 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:50:35,031 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:50:35,047 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:50:35,047 - [INFO] [GETTER] <DATA>
-2016-02-08 23:50:37,177 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:50:37,177 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:50:37,177 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:50:37,177 - [INFO] [GETTER] <DATA>
-2016-02-08 23:50:55,992 - [INFO] database [default] connected at jdbc:mysql://localhost/yankalee
-2016-02-08 23:50:55,992 - [INFO] Application started (Dev)
-2016-02-08 23:50:56,008 - [INFO] 23:50:56[GETTER] nathan ask if is debter
-2016-02-08 23:50:56,008 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:50:56,008 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:50:56,008 - [INFO] [GETTER] <DATA>
-2016-02-08 23:50:57,175 - [INFO] 23:50:57[GETTER] nathan ask if is debter
-2016-02-08 23:50:57,175 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:50:57,190 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:50:57,190 - [INFO] [GETTER] <DATA>
-2016-02-08 23:51:15,034 - [INFO] 23:51:15[GETTER] nathan ask if is debter
-2016-02-08 23:51:15,034 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:51:15,034 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:51:15,034 - [INFO] [GETTER] <DATA>
-2016-02-08 23:51:17,177 - [INFO] 23:51:17[GETTER] nathan ask if is debter
-2016-02-08 23:51:17,177 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:51:17,192 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:51:17,192 - [INFO] [GETTER] <DATA>
-2016-02-08 23:51:36,035 - [INFO] database [default] connected at jdbc:mysql://localhost/yankalee
-2016-02-08 23:51:36,035 - [INFO] Application started (Dev)
-2016-02-08 23:51:36,035 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:51:36,035 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:51:36,051 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:51:36,051 - [INFO] [GETTER] <DATA>
-2016-02-08 23:51:37,167 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:51:37,167 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:51:37,183 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:51:37,183 - [INFO] [GETTER] <DATA>
-2016-02-08 23:51:55,031 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:51:55,031 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:51:55,046 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:51:55,046 - [INFO] [GETTER] <DATA>
-2016-02-08 23:51:57,172 - [INFO] [GETTER] nathan ask if is debter
-2016-02-08 23:51:57,172 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:51:57,187 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:51:57,187 - [INFO] [GETTER] <DATA>
-2016-02-08 23:52:16,119 - [INFO] database [default] connected at jdbc:mysql://localhost/yankalee
-2016-02-08 23:52:16,119 - [INFO] Application started (Dev)
-2016-02-08 23:52:16,119 - [INFO] <GETTER> nathan ask if is debter
-2016-02-08 23:52:16,135 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:52:16,135 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:52:16,135 - [INFO] <GETTER> <DATA>
-2016-02-08 23:52:17,173 - [INFO] <GETTER> nathan ask if is debter
-2016-02-08 23:52:17,173 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:52:17,173 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:52:17,173 - [INFO] <GETTER> <DATA>
-2016-02-08 23:52:36,087 - [INFO] database [default] connected at jdbc:mysql://localhost/yankalee
-2016-02-08 23:52:36,087 - [INFO] Application started (Dev)
-2016-02-08 23:52:36,103 - [INFO] <GETTER> nathan ask if is debter
-2016-02-08 23:52:36,103 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:52:36,103 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:52:36,103 - [INFO] <GETTER> <DATA>
-2016-02-08 23:52:37,176 - [INFO] <GETTER> nathan ask if is debter
-2016-02-08 23:52:37,176 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:52:37,192 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:52:37,192 - [INFO] <GETTER> <DATA>
-2016-02-08 23:52:55,023 - [INFO] <GETTER> nathan ask if is debter
-2016-02-08 23:52:55,023 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:52:55,039 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:52:55,039 - [INFO] <GETTER> <DATA>
-2016-02-08 23:52:57,165 - [INFO] <GETTER> nathan ask if is debter
-2016-02-08 23:52:57,165 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:52:57,180 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:52:57,180 - [INFO] <GETTER> <DATA>
-2016-02-08 23:53:15,030 - [INFO] <GETTER> nathan ask if is debter
-2016-02-08 23:53:15,030 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:53:15,030 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:53:15,030 - [INFO] <GETTER> <DATA>
-2016-02-08 23:53:17,167 - [INFO] <GETTER> nathan ask if is debter
-2016-02-08 23:53:17,167 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:53:17,183 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:53:17,183 - [INFO] <GETTER> <DATA>
-2016-02-08 23:53:35,027 - [INFO] <GETTER> nathan ask if is debter
-2016-02-08 23:53:35,027 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:53:35,043 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:53:35,043 - [INFO] <GETTER> <DATA>
-2016-02-08 23:53:37,159 - [INFO] <GETTER> nathan ask if is debter
-2016-02-08 23:53:37,159 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:53:37,174 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:53:37,174 - [INFO] <GETTER> <DATA>
-2016-02-08 23:53:55,023 - [INFO] <GETTER> nathan ask if is debter
-2016-02-08 23:53:55,023 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:53:55,039 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:53:55,039 - [INFO] <GETTER> <DATA>
-2016-02-08 23:53:57,164 - [INFO] <GETTER> nathan ask if is debter
-2016-02-08 23:53:57,164 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:53:57,179 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:53:57,179 - [INFO] <GETTER> <DATA>
-2016-02-08 23:54:15,028 - [INFO] <GETTER> nathan ask if is debter
-2016-02-08 23:54:15,028 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:54:15,043 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:54:15,043 - [INFO] <GETTER> <DATA>
-2016-02-08 23:54:17,168 - [INFO] <GETTER> nathan ask if is debter
-2016-02-08 23:54:17,168 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:54:17,184 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:54:17,184 - [INFO] <GETTER> <DATA>
-2016-02-08 23:54:35,025 - [INFO] <GETTER> nathan ask if is debter
-2016-02-08 23:54:35,025 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
-2016-02-08 23:54:35,025 - [INFO] <DATA_BASE> Get Temp Gelts
-2016-02-08 23:54:35,025 - [INFO] <GETTER> <DATA>
+2016-02-11 23:46:51,069 - [INFO] database [default] connected at jdbc:mysql://localhost/yankalee
+2016-02-11 23:46:51,390 - [INFO] Application started (Dev)
+2016-02-11 23:46:52,987 - [INFO] <GETTER> nathan ask if is debter
+2016-02-11 23:46:52,988 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-11 23:46:53,010 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-11 23:46:53,010 - [INFO] <GETTER> <DATA>
+2016-02-11 23:46:53,106 - [INFO] <GETTER> nathan ask if is debter
+2016-02-11 23:46:53,107 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-11 23:46:53,117 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-11 23:46:53,118 - [INFO] <GETTER> <DATA>
+2016-02-11 23:47:06,280 - [INFO] <GETTER> nathan ask if is debter
+2016-02-11 23:47:06,281 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-11 23:47:06,288 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-11 23:47:06,289 - [INFO] <GETTER> <DATA>
+2016-02-11 23:47:08,281 - [INFO] <GETTER> nathan ask if is debter
+2016-02-11 23:47:08,282 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-11 23:47:08,293 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-11 23:47:08,293 - [INFO] <GETTER> <DATA>
+2016-02-11 23:47:12,070 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-02-11 23:47:12,070 - [INFO] <BUSINESS_LOGIC> Get users
+2016-02-11 23:47:12,075 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:47:12,112 - [INFO] <DATA_BASE> Get User-Names
+2016-02-11 23:47:12,119 - [INFO] <DATA_BASE> Get Gelts
+2016-02-11 23:47:12,120 - [INFO] { "debts":[ ]}
+2016-02-11 23:47:19,297 - [INFO] <BUSINESS_LOGIC> Get is login permited
+2016-02-11 23:47:19,303 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:47:19,304 - [INFO] Y.Nathan is login
+2016-02-11 23:47:19,326 - [INFO] <BUSINESS_LOGIC> Get users
+2016-02-11 23:47:19,327 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-02-11 23:47:19,335 - [INFO] <DATA_BASE> Get User-Names
+2016-02-11 23:47:19,344 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:47:19,353 - [INFO] <DATA_BASE> Get Gelts
+2016-02-11 23:47:19,353 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-11 23:47:19,358 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:47:19,359 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-11 23:47:19,371 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:47:19,374 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 6 : Hektor
+2016-02-11 23:47:19,374 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-11 23:47:19,386 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:47:19,386 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-11 23:47:19,396 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:47:19,397 - [INFO] { "debts":[ {"Debter":"Y.Nathan","Amount":"6","Entitled":"Hektor"} ]}
+2016-02-11 23:47:32,067 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-11 23:47:32,067 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-11 23:47:32,084 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-11 23:47:32,084 - [INFO] <GETTER> <DATA>
+2016-02-11 23:47:39,102 - [INFO] <BUSINESS_LOGIC> Get users
+2016-02-11 23:47:39,102 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-02-11 23:47:39,107 - [INFO] <DATA_BASE> Get User-Names
+2016-02-11 23:47:39,116 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:47:39,131 - [INFO] <DATA_BASE> Get Gelts
+2016-02-11 23:47:39,132 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-11 23:47:39,140 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:47:39,141 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-11 23:47:39,148 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:47:39,149 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 6 : Hektor
+2016-02-11 23:47:39,150 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-11 23:47:39,156 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:47:39,157 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-11 23:47:39,165 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:47:39,166 - [INFO] { "debts":[ {"Debter":"Y.Nathan","Amount":"6","Entitled":"Hektor"} ]}
+2016-02-11 23:47:41,083 - [INFO] <BUSINESS_LOGIC> Get users
+2016-02-11 23:47:41,083 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-02-11 23:47:41,090 - [INFO] <DATA_BASE> Get User-Names
+2016-02-11 23:47:41,098 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:47:41,107 - [INFO] <DATA_BASE> Get Gelts
+2016-02-11 23:47:41,108 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-11 23:47:41,113 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:47:41,114 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-11 23:47:41,121 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:47:41,122 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 6 : Hektor
+2016-02-11 23:47:41,122 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-11 23:47:41,130 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:47:41,130 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-11 23:47:41,137 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:47:41,138 - [INFO] { "debts":[ {"Debter":"Y.Nathan","Amount":"6","Entitled":"Hektor"} ]}
+2016-02-11 23:48:01,284 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-11 23:48:01,286 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-11 23:48:01,303 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-11 23:48:01,304 - [INFO] <GETTER> <DATA>
+2016-02-11 23:48:21,283 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-11 23:48:21,284 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-11 23:48:21,300 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-11 23:48:21,300 - [INFO] <GETTER> <DATA>
+2016-02-11 23:48:41,076 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-11 23:48:41,077 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-11 23:48:41,081 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-11 23:48:41,082 - [INFO] <GETTER> <DATA>
+2016-02-11 23:49:01,277 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-11 23:49:01,277 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-11 23:49:01,283 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-11 23:49:01,283 - [INFO] <GETTER> <DATA>
+2016-02-11 23:49:21,279 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-11 23:49:21,280 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-11 23:49:21,288 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-11 23:49:21,289 - [INFO] <GETTER> <DATA>
+2016-02-11 23:49:41,280 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-11 23:49:41,281 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-11 23:49:41,290 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-11 23:49:41,290 - [INFO] <GETTER> <DATA>
+2016-02-11 23:50:01,277 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-11 23:50:01,278 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-11 23:50:01,282 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-11 23:50:01,282 - [INFO] <GETTER> <DATA>
+2016-02-11 23:50:21,277 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-11 23:50:21,277 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-11 23:50:21,284 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-11 23:50:21,284 - [INFO] <GETTER> <DATA>
+2016-02-11 23:50:41,277 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-11 23:50:41,278 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-11 23:50:41,282 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-11 23:50:41,283 - [INFO] <GETTER> <DATA>
+2016-02-11 23:51:01,278 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-11 23:51:01,278 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-11 23:51:01,283 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-11 23:51:01,283 - [INFO] <GETTER> <DATA>
+2016-02-11 23:51:21,278 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-11 23:51:21,278 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-11 23:51:21,282 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-11 23:51:21,282 - [INFO] <GETTER> <DATA>
+2016-02-11 23:51:41,473 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-11 23:51:41,474 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-11 23:51:41,478 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-11 23:51:41,479 - [INFO] <GETTER> <DATA>
+2016-02-11 23:52:01,279 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-11 23:52:01,280 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-11 23:52:01,289 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-11 23:52:01,290 - [INFO] <GETTER> <DATA>
+2016-02-11 23:52:21,285 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-11 23:52:21,286 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-11 23:52:21,302 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-11 23:52:21,303 - [INFO] <GETTER> <DATA>
+2016-02-11 23:52:41,282 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-11 23:52:41,283 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-11 23:52:41,299 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-11 23:52:41,300 - [INFO] <GETTER> <DATA>
+2016-02-11 23:53:01,282 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-11 23:53:01,283 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-11 23:53:01,298 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-11 23:53:01,299 - [INFO] <GETTER> <DATA>
+2016-02-11 23:53:21,282 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-11 23:53:21,283 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-11 23:53:21,297 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-11 23:53:21,298 - [INFO] <GETTER> <DATA>
+2016-02-11 23:53:41,283 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-11 23:53:41,284 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-11 23:53:41,298 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-11 23:53:41,299 - [INFO] <GETTER> <DATA>
+2016-02-11 23:54:01,348 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-11 23:54:01,349 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-11 23:54:01,358 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-11 23:54:01,360 - [INFO] <GETTER> <DATA>
+2016-02-11 23:54:04,497 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-02-11 23:54:04,497 - [INFO] <BUSINESS_LOGIC> Get users
+2016-02-11 23:54:04,501 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:54:04,506 - [INFO] <DATA_BASE> Get Gelts
+2016-02-11 23:54:04,507 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-11 23:54:04,512 - [INFO] <DATA_BASE> Get User-Names
+2016-02-11 23:54:04,518 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:54:04,519 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-11 23:54:04,526 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:54:04,526 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 6 : Hektor
+2016-02-11 23:54:04,526 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-11 23:54:04,532 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:54:04,533 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-11 23:54:04,539 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:54:04,540 - [INFO] { "debts":[ {"Debter":"Y.Nathan","Amount":"6","Entitled":"Hektor"} ]}
+2016-02-11 23:54:24,492 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-11 23:54:24,492 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-11 23:54:24,502 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-11 23:54:24,502 - [INFO] <GETTER> <DATA>
+2016-02-11 23:54:45,282 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-11 23:54:45,283 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-11 23:54:45,297 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-11 23:54:45,298 - [INFO] <GETTER> <DATA>
+2016-02-11 23:55:04,494 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-11 23:55:04,495 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-11 23:55:04,509 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-11 23:55:04,510 - [INFO] <GETTER> <DATA>
+2016-02-11 23:55:24,495 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-11 23:55:24,496 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-11 23:55:24,510 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-11 23:55:24,510 - [INFO] <GETTER> <DATA>
+2016-02-11 23:55:44,495 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-11 23:55:44,496 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-11 23:55:44,511 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-11 23:55:44,511 - [INFO] <GETTER> <DATA>
+2016-02-11 23:55:53,261 - [INFO] <BUSINESS_LOGIC> Get users
+2016-02-11 23:55:53,261 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-02-11 23:55:53,266 - [INFO] <DATA_BASE> Get User-Names
+2016-02-11 23:55:53,270 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:55:53,274 - [INFO] <DATA_BASE> Get Gelts
+2016-02-11 23:55:53,274 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-11 23:55:53,278 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:55:53,278 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-11 23:55:53,282 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:55:53,282 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 6 : Hektor
+2016-02-11 23:55:53,282 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-11 23:55:53,285 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:55:53,286 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-11 23:55:53,289 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:55:53,290 - [INFO] { "debts":[ {"Debter":"Y.Nathan","Amount":"6","Entitled":"Hektor"} ]}
+2016-02-11 23:56:04,432 - [INFO] <BUSINESS_LOGIC> Get is login permited
+2016-02-11 23:56:04,438 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:56:04,439 - [INFO] nathan is login
+2016-02-11 23:56:04,457 - [INFO] <BUSINESS_LOGIC> Get users
+2016-02-11 23:56:04,457 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-02-11 23:56:04,462 - [INFO] <DATA_BASE> Get User-Names
+2016-02-11 23:56:04,470 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:56:04,476 - [INFO] <DATA_BASE> Get Gelts
+2016-02-11 23:56:04,476 - [INFO] { "debts":[ ]}
+2016-02-11 23:56:13,258 - [INFO] <GETTER> nathan ask if is debter
+2016-02-11 23:56:13,259 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-11 23:56:13,274 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-11 23:56:13,275 - [INFO] <GETTER> <DATA>
+2016-02-11 23:56:15,559 - [INFO] <BUSINESS_LOGIC> Get is login permited
+2016-02-11 23:56:15,566 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:56:15,566 - [INFO] Y.Nathan is login
+2016-02-11 23:56:15,584 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-02-11 23:56:15,584 - [INFO] <BUSINESS_LOGIC> Get users
+2016-02-11 23:56:15,590 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:56:15,598 - [INFO] <DATA_BASE> Get User-Names
+2016-02-11 23:56:15,604 - [INFO] <DATA_BASE> Get Gelts
+2016-02-11 23:56:15,605 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-11 23:56:15,609 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:56:15,609 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-11 23:56:15,614 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:56:15,614 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 6 : Hektor
+2016-02-11 23:56:15,614 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-11 23:56:15,620 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:56:15,620 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-11 23:56:15,625 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:56:15,625 - [INFO] { "debts":[ {"Debter":"Y.Nathan","Amount":"6","Entitled":"Hektor"} ]}
+2016-02-11 23:56:24,462 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-11 23:56:24,463 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-11 23:56:24,477 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-11 23:56:24,478 - [INFO] <GETTER> <DATA>
+2016-02-11 23:56:33,252 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-11 23:56:33,252 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-11 23:56:33,256 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-11 23:56:33,256 - [INFO] <GETTER> <DATA>
+2016-02-11 23:56:35,580 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-11 23:56:35,581 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-11 23:56:35,585 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-11 23:56:35,585 - [INFO] <GETTER> <DATA>
+2016-02-11 23:56:43,506 - [INFO] <BUSINESS_LOGIC> Get users
+2016-02-11 23:56:43,506 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-02-11 23:56:43,510 - [INFO] <DATA_BASE> Get User-Names
+2016-02-11 23:56:43,516 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:56:43,520 - [INFO] <DATA_BASE> Get Gelts
+2016-02-11 23:56:43,521 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-11 23:56:43,527 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:56:43,527 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-11 23:56:43,532 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:56:43,532 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 6 : Hektor
+2016-02-11 23:56:43,532 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-11 23:56:43,538 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:56:43,538 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-11 23:56:43,545 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:56:43,545 - [INFO] { "debts":[ {"Debter":"Y.Nathan","Amount":"6","Entitled":"Hektor"} ]}
+2016-02-11 23:57:04,411 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-11 23:57:04,411 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-11 23:57:04,415 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-11 23:57:04,415 - [INFO] <GETTER> <DATA>
+2016-02-11 23:57:23,055 - [INFO] <BUSINESS_LOGIC> Get users
+2016-02-11 23:57:23,055 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-02-11 23:57:23,059 - [INFO] <DATA_BASE> Get User-Names
+2016-02-11 23:57:23,064 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:57:23,069 - [INFO] <DATA_BASE> Get Gelts
+2016-02-11 23:57:23,070 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-11 23:57:23,074 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:57:23,075 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-11 23:57:23,080 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:57:23,080 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 6 : Hektor
+2016-02-11 23:57:23,080 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-11 23:57:23,085 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:57:23,085 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-11 23:57:23,091 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:57:23,092 - [INFO] { "debts":[ {"Debter":"Y.Nathan","Amount":"6","Entitled":"Hektor"} ]}
+2016-02-11 23:57:43,048 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-11 23:57:43,048 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-11 23:57:43,055 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-11 23:57:43,055 - [INFO] <GETTER> <DATA>
+2016-02-11 23:57:58,749 - [INFO] <BUSINESS_LOGIC> Get users
+2016-02-11 23:57:58,749 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-02-11 23:57:58,753 - [INFO] <DATA_BASE> Get User-Names
+2016-02-11 23:57:58,759 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:57:58,764 - [INFO] <DATA_BASE> Get Gelts
+2016-02-11 23:57:58,764 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-11 23:57:58,769 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:57:58,769 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-11 23:57:58,775 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:57:58,775 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 6 : Hektor
+2016-02-11 23:57:58,776 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-11 23:57:58,781 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:57:58,782 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-11 23:57:58,787 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:57:58,788 - [INFO] { "debts":[ {"Debter":"Y.Nathan","Amount":"6","Entitled":"Hektor"} ]}
+2016-02-11 23:58:00,251 - [INFO] <BUSINESS_LOGIC> Get users
+2016-02-11 23:58:00,251 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-02-11 23:58:00,255 - [INFO] <DATA_BASE> Get User-Names
+2016-02-11 23:58:00,260 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:58:00,266 - [INFO] <DATA_BASE> Get Gelts
+2016-02-11 23:58:00,266 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-11 23:58:00,271 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:58:00,272 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-11 23:58:00,279 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:58:00,279 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 6 : Hektor
+2016-02-11 23:58:00,279 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-11 23:58:00,285 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:58:00,285 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-11 23:58:00,292 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:58:00,293 - [INFO] { "debts":[ {"Debter":"Y.Nathan","Amount":"6","Entitled":"Hektor"} ]}
+2016-02-11 23:58:20,379 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-11 23:58:20,380 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-11 23:58:20,384 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-11 23:58:20,384 - [INFO] <GETTER> <DATA>
+2016-02-11 23:58:21,994 - [INFO] <BUSINESS_LOGIC> Get users
+2016-02-11 23:58:21,994 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-02-11 23:58:21,999 - [INFO] <DATA_BASE> Get User-Names
+2016-02-11 23:58:22,004 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:58:22,008 - [INFO] <DATA_BASE> Get Gelts
+2016-02-11 23:58:22,008 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-11 23:58:22,013 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:58:22,014 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-11 23:58:22,019 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:58:22,020 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 6 : Hektor
+2016-02-11 23:58:22,020 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-11 23:58:22,027 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:58:22,027 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-11 23:58:22,035 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:58:22,036 - [INFO] { "debts":[ {"Debter":"Y.Nathan","Amount":"6","Entitled":"Hektor"} ]}
+2016-02-11 23:58:41,994 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-11 23:58:41,994 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-11 23:58:42,009 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-11 23:58:42,009 - [INFO] <GETTER> <DATA>
+2016-02-11 23:59:00,334 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-02-11 23:59:00,334 - [INFO] <BUSINESS_LOGIC> Get users
+2016-02-11 23:59:00,338 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:59:00,343 - [INFO] <DATA_BASE> Get Gelts
+2016-02-11 23:59:00,343 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-11 23:59:00,348 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:59:00,348 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-11 23:59:00,353 - [INFO] <DATA_BASE> Get User-Names
+2016-02-11 23:59:00,358 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:59:00,359 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 6 : Hektor
+2016-02-11 23:59:00,359 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-11 23:59:00,364 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:59:00,365 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-11 23:59:00,370 - [INFO] <DATA_BASE> Get Users
+2016-02-11 23:59:00,370 - [INFO] { "debts":[ {"Debter":"Y.Nathan","Amount":"6","Entitled":"Hektor"} ]}
+2016-02-11 23:59:20,330 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-11 23:59:20,331 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-11 23:59:20,339 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-11 23:59:20,340 - [INFO] <GETTER> <DATA>
+2016-02-11 23:59:40,333 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-11 23:59:40,334 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-11 23:59:40,349 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-11 23:59:40,349 - [INFO] <GETTER> <DATA>
+2016-02-12 00:00:00,332 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:00:00,333 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:00:00,347 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:00:00,347 - [INFO] <GETTER> <DATA>
+2016-02-12 00:00:20,329 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:00:20,330 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:00:20,338 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:00:20,338 - [INFO] <GETTER> <DATA>
+2016-02-12 00:00:40,333 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:00:40,334 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:00:40,349 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:00:40,349 - [INFO] <GETTER> <DATA>
+2016-02-12 00:01:00,332 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:01:00,333 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:01:00,346 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:01:00,346 - [INFO] <GETTER> <DATA>
+2016-02-12 00:01:20,332 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:01:20,332 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:01:20,338 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:01:20,338 - [INFO] <GETTER> <DATA>
+2016-02-12 00:01:40,333 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:01:40,334 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:01:40,347 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:01:40,347 - [INFO] <GETTER> <DATA>
+2016-02-12 00:02:01,282 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:02:01,283 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:02:01,298 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:02:01,299 - [INFO] <GETTER> <DATA>
+2016-02-12 00:02:21,276 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:02:21,276 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:02:21,281 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:02:21,281 - [INFO] <GETTER> <DATA>
+2016-02-12 00:02:41,284 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:02:41,284 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:02:41,299 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:02:41,299 - [INFO] <GETTER> <DATA>
+2016-02-12 00:03:01,281 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:03:01,282 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:03:01,295 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:03:01,296 - [INFO] <GETTER> <DATA>
+2016-02-12 00:03:21,277 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:03:21,278 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:03:21,283 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:03:21,284 - [INFO] <GETTER> <DATA>
+2016-02-12 00:03:41,282 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:03:41,283 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:03:41,297 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:03:41,297 - [INFO] <GETTER> <DATA>
+2016-02-12 00:04:01,278 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:04:01,278 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:04:01,284 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:04:01,284 - [INFO] <GETTER> <DATA>
+2016-02-12 00:04:21,281 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:04:21,282 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:04:21,295 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:04:21,295 - [INFO] <GETTER> <DATA>
+2016-02-12 00:04:41,281 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:04:41,282 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:04:41,296 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:04:41,297 - [INFO] <GETTER> <DATA>
+2016-02-12 00:05:01,411 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:05:01,411 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:05:01,415 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:05:01,415 - [INFO] <GETTER> <DATA>
+2016-02-12 00:05:07,097 - [INFO] <BUSINESS_LOGIC> Get users
+2016-02-12 00:05:07,097 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-02-12 00:05:07,102 - [INFO] <DATA_BASE> Get User-Names
+2016-02-12 00:05:07,107 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:05:07,112 - [INFO] <DATA_BASE> Get Gelts
+2016-02-12 00:05:07,112 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:05:07,117 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:05:07,117 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:05:07,122 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:05:07,123 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 6 : Hektor
+2016-02-12 00:05:07,123 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:05:07,127 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:05:07,128 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:05:07,133 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:05:07,134 - [INFO] { "debts":[ {"Debter":"Y.Nathan","Amount":"6","Entitled":"Hektor"} ]}
+2016-02-12 00:05:21,704 - [INFO] <BUSINESS_LOGIC> Get users
+2016-02-12 00:05:21,704 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-02-12 00:05:21,709 - [INFO] <DATA_BASE> Get User-Names
+2016-02-12 00:05:21,715 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:05:21,720 - [INFO] <DATA_BASE> Get Gelts
+2016-02-12 00:05:21,721 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:05:21,725 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:05:21,725 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:05:21,731 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:05:21,731 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 6 : Hektor
+2016-02-12 00:05:21,731 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:05:21,736 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:05:21,737 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:05:21,742 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:05:21,743 - [INFO] { "debts":[ {"Debter":"Y.Nathan","Amount":"6","Entitled":"Hektor"} ]}
+2016-02-12 00:05:23,624 - [INFO] <BUSINESS_LOGIC> Get users
+2016-02-12 00:05:23,624 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-02-12 00:05:23,628 - [INFO] <DATA_BASE> Get User-Names
+2016-02-12 00:05:23,632 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:05:23,648 - [INFO] <DATA_BASE> Get Gelts
+2016-02-12 00:05:23,648 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:05:23,653 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:05:23,653 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:05:23,659 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:05:23,659 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 6 : Hektor
+2016-02-12 00:05:23,659 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:05:23,665 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:05:23,666 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:05:23,672 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:05:23,673 - [INFO] { "debts":[ {"Debter":"Y.Nathan","Amount":"6","Entitled":"Hektor"} ]}
+2016-02-12 00:05:34,680 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-02-12 00:05:34,680 - [INFO] <BUSINESS_LOGIC> Get users
+2016-02-12 00:05:34,684 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:05:34,688 - [INFO] <DATA_BASE> Get Gelts
+2016-02-12 00:05:34,689 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:05:34,694 - [INFO] <DATA_BASE> Get User-Names
+2016-02-12 00:05:34,699 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:05:34,699 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:05:34,704 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:05:34,704 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 6 : Hektor
+2016-02-12 00:05:34,704 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:05:34,709 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:05:34,710 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:05:34,715 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:05:34,715 - [INFO] { "debts":[ {"Debter":"Y.Nathan","Amount":"6","Entitled":"Hektor"} ]}
+2016-02-12 00:05:44,818 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-02-12 00:05:44,818 - [INFO] <BUSINESS_LOGIC> Get users
+2016-02-12 00:05:44,822 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:05:44,827 - [INFO] <DATA_BASE> Get User-Names
+2016-02-12 00:05:44,832 - [INFO] <DATA_BASE> Get Gelts
+2016-02-12 00:05:44,832 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:05:44,838 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:05:44,838 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:05:44,844 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:05:44,844 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 6 : Hektor
+2016-02-12 00:05:44,844 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:05:44,849 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:05:44,849 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:05:44,855 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:05:44,856 - [INFO] { "debts":[ {"Debter":"Y.Nathan","Amount":"6","Entitled":"Hektor"} ]}
+2016-02-12 00:06:04,812 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:06:04,813 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:06:04,819 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:06:04,819 - [INFO] <GETTER> <DATA>
+2016-02-12 00:06:24,815 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:06:24,816 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:06:24,829 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:06:24,830 - [INFO] <GETTER> <DATA>
+2016-02-12 00:06:44,813 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:06:44,813 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:06:44,823 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:06:44,823 - [INFO] <GETTER> <DATA>
+2016-02-12 00:07:05,039 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:07:05,040 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:07:05,044 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:07:05,044 - [INFO] <GETTER> <DATA>
+2016-02-12 00:07:05,934 - [INFO] <BUSINESS_LOGIC> Get users
+2016-02-12 00:07:05,934 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-02-12 00:07:05,938 - [INFO] <DATA_BASE> Get User-Names
+2016-02-12 00:07:05,944 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:07:05,949 - [INFO] <DATA_BASE> Get Gelts
+2016-02-12 00:07:05,949 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:07:05,954 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:07:05,954 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:07:05,959 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:07:05,959 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 6 : Hektor
+2016-02-12 00:07:05,959 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:07:05,963 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:07:05,964 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:07:05,969 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:07:05,969 - [INFO] { "debts":[ {"Debter":"Y.Nathan","Amount":"6","Entitled":"Hektor"} ]}
+2016-02-12 00:07:06,942 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-02-12 00:07:06,942 - [INFO] <BUSINESS_LOGIC> Get users
+2016-02-12 00:07:06,946 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:07:06,951 - [INFO] <DATA_BASE> Get Gelts
+2016-02-12 00:07:06,951 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:07:06,957 - [INFO] <DATA_BASE> Get User-Names
+2016-02-12 00:07:06,963 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:07:06,964 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:07:06,969 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:07:06,969 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 6 : Hektor
+2016-02-12 00:07:06,969 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:07:06,975 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:07:06,975 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:07:06,980 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:07:06,981 - [INFO] { "debts":[ {"Debter":"Y.Nathan","Amount":"6","Entitled":"Hektor"} ]}
+2016-02-12 00:07:19,632 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-02-12 00:07:19,632 - [INFO] <BUSINESS_LOGIC> Get users
+2016-02-12 00:07:19,635 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:07:19,640 - [INFO] <DATA_BASE> Get Gelts
+2016-02-12 00:07:19,640 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:07:19,644 - [INFO] <DATA_BASE> Get User-Names
+2016-02-12 00:07:19,649 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:07:19,649 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:07:19,654 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:07:19,654 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 6 : Hektor
+2016-02-12 00:07:19,654 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:07:19,660 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:07:19,660 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:07:19,666 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:07:19,666 - [INFO] { "debts":[ {"Debter":"Y.Nathan","Amount":"6","Entitled":"Hektor"} ]}
+2016-02-12 00:07:20,503 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-02-12 00:07:20,503 - [INFO] <BUSINESS_LOGIC> Get users
+2016-02-12 00:07:20,506 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:07:20,511 - [INFO] <DATA_BASE> Get Gelts
+2016-02-12 00:07:20,512 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:07:20,516 - [INFO] <DATA_BASE> Get User-Names
+2016-02-12 00:07:20,520 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:07:20,521 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:07:20,525 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:07:20,525 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 6 : Hektor
+2016-02-12 00:07:20,525 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:07:20,530 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:07:20,530 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:07:20,541 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:07:20,541 - [INFO] { "debts":[ {"Debter":"Y.Nathan","Amount":"6","Entitled":"Hektor"} ]}
+2016-02-12 00:07:36,616 - [INFO] <BUSINESS_LOGIC> Get users
+2016-02-12 00:07:36,616 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-02-12 00:07:36,620 - [INFO] <DATA_BASE> Get User-Names
+2016-02-12 00:07:36,624 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:07:36,629 - [INFO] <DATA_BASE> Get Gelts
+2016-02-12 00:07:36,629 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:07:36,634 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:07:36,635 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:07:36,639 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:07:36,640 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 6 : Hektor
+2016-02-12 00:07:36,640 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:07:36,645 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:07:36,645 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:07:36,650 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:07:36,650 - [INFO] { "debts":[ {"Debter":"Y.Nathan","Amount":"6","Entitled":"Hektor"} ]}
+2016-02-12 00:07:56,612 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:07:56,613 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:07:56,621 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:07:56,621 - [INFO] <GETTER> <DATA>
+2016-02-12 00:08:16,726 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:08:16,726 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:08:16,730 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:08:16,731 - [INFO] <GETTER> <DATA>
+2016-02-12 00:08:18,795 - [INFO] <BUSINESS_LOGIC> Get users
+2016-02-12 00:08:18,795 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-02-12 00:08:18,799 - [INFO] <DATA_BASE> Get User-Names
+2016-02-12 00:08:18,804 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:08:18,809 - [INFO] <DATA_BASE> Get Gelts
+2016-02-12 00:08:18,809 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:08:18,814 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:08:18,814 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:08:18,819 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:08:18,819 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 6 : Hektor
+2016-02-12 00:08:18,819 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:08:18,825 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:08:18,825 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:08:18,831 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:08:18,832 - [INFO] { "debts":[ {"Debter":"Y.Nathan","Amount":"6","Entitled":"Hektor"} ]}
+2016-02-12 00:08:19,781 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-02-12 00:08:19,781 - [INFO] <BUSINESS_LOGIC> Get users
+2016-02-12 00:08:19,785 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:08:19,790 - [INFO] <DATA_BASE> Get Gelts
+2016-02-12 00:08:19,791 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:08:19,796 - [INFO] <DATA_BASE> Get User-Names
+2016-02-12 00:08:19,801 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:08:19,802 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:08:19,807 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:08:19,807 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 6 : Hektor
+2016-02-12 00:08:19,807 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:08:19,812 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:08:19,812 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:08:19,819 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:08:19,819 - [INFO] { "debts":[ {"Debter":"Y.Nathan","Amount":"6","Entitled":"Hektor"} ]}
+2016-02-12 00:08:37,090 - [INFO] <BUSINESS_LOGIC> Get users
+2016-02-12 00:08:37,091 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-02-12 00:08:37,097 - [INFO] <DATA_BASE> Get User-Names
+2016-02-12 00:08:37,102 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:08:37,115 - [INFO] <DATA_BASE> Get Gelts
+2016-02-12 00:08:37,115 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:08:37,119 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:08:37,120 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:08:37,124 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:08:37,125 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 6 : Hektor
+2016-02-12 00:08:37,125 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:08:37,130 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:08:37,130 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:08:37,136 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:08:37,136 - [INFO] { "debts":[ {"Debter":"Y.Nathan","Amount":"6","Entitled":"Hektor"} ]}
+2016-02-12 00:08:50,517 - [INFO] <BUSINESS_LOGIC> Get users
+2016-02-12 00:08:50,517 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-02-12 00:08:50,520 - [INFO] <DATA_BASE> Get User-Names
+2016-02-12 00:08:50,525 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:08:50,531 - [INFO] <DATA_BASE> Get Gelts
+2016-02-12 00:08:50,531 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:08:50,536 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:08:50,537 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:08:50,542 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:08:50,543 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 6 : Hektor
+2016-02-12 00:08:50,543 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:08:50,548 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:08:50,549 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:08:50,554 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:08:50,555 - [INFO] { "debts":[ {"Debter":"Y.Nathan","Amount":"6","Entitled":"Hektor"} ]}
+2016-02-12 00:09:10,515 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:09:10,516 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:09:10,529 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:09:10,529 - [INFO] <GETTER> <DATA>
+2016-02-12 00:09:31,277 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:09:31,277 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:09:31,281 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:09:31,282 - [INFO] <GETTER> <DATA>
+2016-02-12 00:09:51,414 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:09:51,414 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:09:51,418 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:09:51,418 - [INFO] <GETTER> <DATA>
+2016-02-12 00:10:04,278 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-02-12 00:10:04,278 - [INFO] <BUSINESS_LOGIC> Get users
+2016-02-12 00:10:04,282 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:10:04,286 - [INFO] <DATA_BASE> Get User-Names
+2016-02-12 00:10:04,291 - [INFO] <DATA_BASE> Get Gelts
+2016-02-12 00:10:04,292 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:10:04,296 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:10:04,297 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:10:04,301 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:10:04,301 - [INFO] <BUSINESS_LOGIC> Get debt Y.Nathan : 6 : Hektor
+2016-02-12 00:10:04,301 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:10:04,306 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:10:04,306 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:10:04,311 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:10:04,312 - [INFO] { "debts":[ {"Debter":"Y.Nathan","Amount":"6","Entitled":"Hektor"} ]}
+2016-02-12 00:10:24,277 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:10:24,278 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:10:24,292 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:10:24,292 - [INFO] <GETTER> <DATA>
+2016-02-12 00:10:25,988 - [INFO] <BUSINESS_LOGIC> Get is user_name already exist
+2016-02-12 00:10:25,993 - [INFO] <DATA_BASE> Get User-Names
+2016-02-12 00:10:25,993 - [INFO] <BUSINESS_LOGIC> Get is user_name already exist
+2016-02-12 00:10:25,998 - [INFO] <DATA_BASE> Get User-Names
+2016-02-12 00:10:25,999 - [INFO] <BUSINESS_LOGIC> Get is user_name already exist
+2016-02-12 00:10:26,003 - [INFO] <DATA_BASE> Get User-Names
+2016-02-12 00:10:26,004 - [INFO] <BUSINESS_LOGIC> Get is user_name already exist
+2016-02-12 00:10:26,009 - [INFO] <DATA_BASE> Get User-Names
+2016-02-12 00:10:26,009 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-02-12 00:10:26,014 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:10:26,014 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-02-12 00:10:26,018 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:10:26,101 - [INFO] Insert new temp gelt to the data-base
+2016-02-12 00:10:44,276 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:10:44,277 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:10:44,290 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:10:44,291 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-02-12 00:10:44,303 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:10:44,304 - [INFO] <GETTER> <DATA>
+2016-02-12 00:11:04,273 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:11:04,273 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:11:04,281 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:11:04,281 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-02-12 00:11:04,288 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:11:04,288 - [INFO] <GETTER> <DATA>
+2016-02-12 00:11:05,558 - [INFO] <BUSINESS_LOGIC> Get users
+2016-02-12 00:11:05,562 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-02-12 00:11:05,567 - [INFO] <DATA_BASE> Get User-Names
+2016-02-12 00:11:05,578 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:11:05,591 - [INFO] <DATA_BASE> Get Gelts
+2016-02-12 00:11:05,591 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:11:05,604 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:11:05,605 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:11:05,617 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:11:05,618 - [INFO] <BUSINESS_LOGIC> Get debt david : 1000 : Hektor
+2016-02-12 00:11:05,618 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:11:05,631 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:11:05,632 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:11:05,643 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:11:05,644 - [INFO] { "debts":[ {"Debter":"david","Amount":"1000","Entitled":"Hektor"} ]}
+2016-02-12 00:11:24,274 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:11:24,275 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:11:24,282 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:11:24,283 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-02-12 00:11:24,290 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:11:24,290 - [INFO] <GETTER> <DATA>
+2016-02-12 00:11:32,751 - [INFO] <BUSINESS_LOGIC> Get is login permited
+2016-02-12 00:11:32,755 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:11:32,756 - [INFO] moyshe is login
+2016-02-12 00:11:33,165 - [INFO] <BUSINESS_LOGIC> Get users
+2016-02-12 00:11:33,174 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-02-12 00:11:33,177 - [INFO] <DATA_BASE> Get User-Names
+2016-02-12 00:11:33,189 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:11:33,202 - [INFO] <DATA_BASE> Get Gelts
+2016-02-12 00:11:33,202 - [INFO] { "debts":[ ]}
+2016-02-12 00:11:44,277 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:11:44,277 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:11:44,291 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:11:44,291 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-02-12 00:11:44,302 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:11:44,302 - [INFO] <GETTER> <DATA>
+2016-02-12 00:12:04,275 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:12:04,275 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:12:04,288 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:12:04,289 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-02-12 00:12:04,301 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:12:04,301 - [INFO] <GETTER> <DATA>
+2016-02-12 00:12:16,801 - [INFO] <BUSINESS_LOGIC> Get is login permited
+2016-02-12 00:12:16,807 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:12:16,808 - [INFO] moyshe is login
+2016-02-12 00:12:17,430 - [INFO] <BUSINESS_LOGIC> Get users
+2016-02-12 00:12:17,430 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-02-12 00:12:17,442 - [INFO] <DATA_BASE> Get User-Names
+2016-02-12 00:12:17,454 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:12:17,461 - [INFO] <DATA_BASE> Get Gelts
+2016-02-12 00:12:17,462 - [INFO] { "debts":[ ]}
+2016-02-12 00:12:24,275 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:12:24,275 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:12:24,288 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:12:24,289 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-02-12 00:12:24,301 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:12:24,302 - [INFO] <GETTER> <DATA>
+2016-02-12 00:12:37,323 - [INFO] <GETTER> moyshe ask if is debter
+2016-02-12 00:12:37,324 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:12:37,338 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:12:37,338 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-02-12 00:12:37,351 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:12:37,352 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:12:37,364 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:12:37,365 - [INFO] <GETTER> <DATA>{ "currDebt":[ {"Amount":"1589","Entitled":"Y.Nathan"} ]}
+2016-02-12 00:12:41,233 - [INFO] <SETTER> Confiming
+2016-02-12 00:12:41,233 - [INFO] <BUSINESS_LOGIC> The Gelt was confirmed by the debter moyshe the system will send for input in the data_base
+2016-02-12 00:12:41,233 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-02-12 00:12:41,244 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:12:41,245 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-02-12 00:12:41,254 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:12:41,254 - [INFO] <BUSINESS_LOGIC> Get gelts
+2016-02-12 00:12:41,264 - [INFO] <DATA_BASE> Get Gelts
+2016-02-12 00:12:41,397 - [INFO] Insert new gelts to the data-base
+2016-02-12 00:12:41,595 - [INFO] <BUSINESS_LOGIC> Get is user_name already exist
+2016-02-12 00:12:41,607 - [INFO] <DATA_BASE> Get User-Names
+2016-02-12 00:12:41,607 - [INFO] <BUSINESS_LOGIC> Get is user_name already exist
+2016-02-12 00:12:41,619 - [INFO] <DATA_BASE> Get User-Names
+2016-02-12 00:12:41,620 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-02-12 00:12:41,633 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:12:41,633 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-02-12 00:12:41,646 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:12:41,716 - [INFO]  Insert new temp gelt to the data-base
+2016-02-12 00:12:41,763 - [ERROR] Table 'yankalee.temp_bank' doesn't exist
+2016-02-12 00:12:44,275 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:12:44,276 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:12:44,288 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:12:44,288 - [INFO] <GETTER> <DATA>
+2016-02-12 00:12:52,863 - [INFO] <BUSINESS_LOGIC> Get users
+2016-02-12 00:12:52,863 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-02-12 00:12:52,867 - [INFO] <DATA_BASE> Get User-Names
+2016-02-12 00:12:52,871 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:12:52,876 - [INFO] <DATA_BASE> Get Gelts
+2016-02-12 00:12:52,877 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:12:52,882 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:12:52,883 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:12:52,888 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:12:52,888 - [INFO] <BUSINESS_LOGIC> Get debt moyshe : 1583 : Y.Nathan
+2016-02-12 00:12:52,888 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:12:52,893 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:12:52,894 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:12:52,900 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:12:52,900 - [INFO] { "debts":[ {"Debter":"moyshe","Amount":"1583","Entitled":"Y.Nathan"} ]}
+2016-02-12 00:13:01,028 - [INFO] <GETTER> moyshe ask if is debter
+2016-02-12 00:13:01,028 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:13:01,040 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:13:01,041 - [INFO] <GETTER> <DATA>
+2016-02-12 00:13:01,794 - [INFO] <BUSINESS_LOGIC> Get users
+2016-02-12 00:13:01,795 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-02-12 00:13:01,798 - [INFO] <DATA_BASE> Get User-Names
+2016-02-12 00:13:01,802 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:13:01,807 - [INFO] <DATA_BASE> Get Gelts
+2016-02-12 00:13:01,807 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:13:01,812 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:13:01,813 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:13:01,818 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:13:01,818 - [INFO] <BUSINESS_LOGIC> Get debt moyshe : 1583 : Y.Nathan
+2016-02-12 00:13:01,818 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:13:01,824 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:13:01,824 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:13:01,828 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:13:01,829 - [INFO] { "debts":[ {"Debter":"moyshe","Amount":"1583","Entitled":"Y.Nathan"} ]}
+2016-02-12 00:13:21,791 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:13:21,792 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:13:21,801 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:13:21,801 - [INFO] <GETTER> <DATA>
+2016-02-12 00:13:41,792 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:13:41,793 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:13:41,806 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:13:41,807 - [INFO] <GETTER> <DATA>
+2016-02-12 00:14:01,792 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:14:01,793 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:14:01,806 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:14:01,807 - [INFO] <GETTER> <DATA>
+2016-02-12 00:14:21,793 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:14:21,794 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:14:21,808 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:14:21,808 - [INFO] <GETTER> <DATA>
+2016-02-12 00:14:41,792 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:14:41,793 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:14:41,807 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:14:41,808 - [INFO] <GETTER> <DATA>
+2016-02-12 00:15:01,790 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:15:01,792 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:15:01,803 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:15:01,803 - [INFO] <GETTER> <DATA>
+2016-02-12 00:15:21,792 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:15:21,793 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:15:21,805 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:15:21,805 - [INFO] <GETTER> <DATA>
+2016-02-12 00:15:35,717 - [INFO] <GETTER> moyshe ask if is debter
+2016-02-12 00:15:35,717 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:15:35,722 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:15:35,722 - [INFO] <GETTER> <DATA>
+2016-02-12 00:15:41,792 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:15:41,792 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:15:41,804 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:15:41,805 - [INFO] <GETTER> <DATA>
+2016-02-12 00:15:55,707 - [INFO] <GETTER> moyshe ask if is debter
+2016-02-12 00:15:55,707 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:15:55,721 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:15:55,722 - [INFO] <GETTER> <DATA>
+2016-02-12 00:15:59,248 - [INFO] <BUSINESS_LOGIC> Get users
+2016-02-12 00:15:59,248 - [INFO] <BUSINESS_LOGIC> Get Id by name
+2016-02-12 00:15:59,260 - [INFO] <DATA_BASE> Get User-Names
+2016-02-12 00:15:59,272 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:15:59,284 - [INFO] <DATA_BASE> Get Gelts
+2016-02-12 00:15:59,285 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:15:59,296 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:15:59,297 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:15:59,305 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:15:59,305 - [INFO] <BUSINESS_LOGIC> Get debt moyshe : 6 : Hektor
+2016-02-12 00:15:59,305 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:15:59,312 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:15:59,312 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:15:59,319 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:15:59,319 - [INFO] <BUSINESS_LOGIC> Get debt moyshe : 1583 : Y.Nathan
+2016-02-12 00:15:59,319 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:15:59,326 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:15:59,326 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:15:59,332 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:15:59,332 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:15:59,335 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:15:59,336 - [INFO] <BUSINESS_LOGIC> Get Name by Id
+2016-02-12 00:15:59,339 - [INFO] <DATA_BASE> Get Users
+2016-02-12 00:15:59,340 - [INFO] { "debts":[ {"Debter":"moyshe","Amount":"6","Entitled":"Hektor"}, {"Debter":"moyshe","Amount":"1583","Entitled":"Y.Nathan"} ]}
+2016-02-12 00:16:01,791 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:16:01,792 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:16:01,803 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:16:01,804 - [INFO] <GETTER> <DATA>
+2016-02-12 00:16:19,202 - [INFO] <GETTER> moyshe ask if is debter
+2016-02-12 00:16:19,203 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:16:19,215 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:16:19,216 - [INFO] <GETTER> <DATA>
+2016-02-12 00:16:21,789 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:16:21,789 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:16:21,797 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:16:21,797 - [INFO] <GETTER> <DATA>
+2016-02-12 00:16:41,793 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:16:41,794 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:16:41,805 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:16:41,806 - [INFO] <GETTER> <DATA>
+2016-02-12 00:17:01,790 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:17:01,791 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:17:01,803 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:17:01,803 - [INFO] <GETTER> <DATA>
+2016-02-12 00:17:21,792 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:17:21,793 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:17:21,806 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:17:21,806 - [INFO] <GETTER> <DATA>
+2016-02-12 00:17:41,788 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:17:41,788 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:17:41,794 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:17:41,794 - [INFO] <GETTER> <DATA>
+2016-02-12 00:18:01,791 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:18:01,792 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:18:01,807 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:18:01,807 - [INFO] <GETTER> <DATA>
+2016-02-12 00:18:21,790 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:18:21,791 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:18:21,803 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:18:21,803 - [INFO] <GETTER> <DATA>
+2016-02-12 00:18:41,791 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:18:41,791 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:18:41,804 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:18:41,805 - [INFO] <GETTER> <DATA>
+2016-02-12 00:19:01,790 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:19:01,791 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:19:01,798 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:19:01,799 - [INFO] <GETTER> <DATA>
+2016-02-12 00:19:21,792 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:19:21,793 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:19:21,807 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:19:21,808 - [INFO] <GETTER> <DATA>
+2016-02-12 00:19:41,792 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:19:41,793 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:19:41,805 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:19:41,806 - [INFO] <GETTER> <DATA>
+2016-02-12 00:20:01,791 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:20:01,792 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:20:01,804 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:20:01,805 - [INFO] <GETTER> <DATA>
+2016-02-12 00:20:21,788 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:20:21,788 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:20:21,794 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:20:21,794 - [INFO] <GETTER> <DATA>
+2016-02-12 00:20:41,791 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:20:41,792 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:20:41,804 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:20:41,805 - [INFO] <GETTER> <DATA>
+2016-02-12 00:21:01,793 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:21:01,794 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:21:01,806 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:21:01,807 - [INFO] <GETTER> <DATA>
+2016-02-12 00:21:21,787 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:21:21,788 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:21:21,792 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:21:21,792 - [INFO] <GETTER> <DATA>
+2016-02-12 00:21:41,791 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:21:41,792 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:21:41,804 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:21:41,804 - [INFO] <GETTER> <DATA>
+2016-02-12 00:22:01,791 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:22:01,792 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:22:01,805 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:22:01,805 - [INFO] <GETTER> <DATA>
+2016-02-12 00:22:21,790 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:22:21,791 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:22:21,801 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:22:21,801 - [INFO] <GETTER> <DATA>
+2016-02-12 00:22:41,792 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:22:41,793 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:22:41,806 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:22:41,807 - [INFO] <GETTER> <DATA>
+2016-02-12 00:23:01,791 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:23:01,791 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:23:01,802 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:23:01,803 - [INFO] <GETTER> <DATA>
+2016-02-12 00:23:21,792 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:23:21,793 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:23:21,806 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:23:21,806 - [INFO] <GETTER> <DATA>
+2016-02-12 00:23:42,279 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:23:42,279 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:23:42,287 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:23:42,288 - [INFO] <GETTER> <DATA>
+2016-02-12 00:24:01,792 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:24:01,792 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:24:01,805 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:24:01,806 - [INFO] <GETTER> <DATA>
+2016-02-12 00:24:21,793 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:24:21,794 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:24:21,806 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:24:21,806 - [INFO] <GETTER> <DATA>
+2016-02-12 00:24:41,792 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:24:41,793 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:24:41,806 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:24:41,806 - [INFO] <GETTER> <DATA>
+2016-02-12 00:25:01,791 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:25:01,792 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:25:01,803 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:25:01,804 - [INFO] <GETTER> <DATA>
+2016-02-12 00:25:21,789 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:25:21,790 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:25:21,799 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:25:21,799 - [INFO] <GETTER> <DATA>
+2016-02-12 00:25:42,280 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:25:42,281 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:25:42,291 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:25:42,291 - [INFO] <GETTER> <DATA>
+2016-02-12 00:26:02,276 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:26:02,276 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:26:02,280 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:26:02,280 - [INFO] <GETTER> <DATA>
+2016-02-12 00:26:22,281 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:26:22,282 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:26:22,287 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:26:22,287 - [INFO] <GETTER> <DATA>
+2016-02-12 00:26:42,280 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:26:42,281 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:26:42,292 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:26:42,292 - [INFO] <GETTER> <DATA>
+2016-02-12 00:27:02,278 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:27:02,279 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:27:02,287 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:27:02,288 - [INFO] <GETTER> <DATA>
+2016-02-12 00:27:22,278 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:27:22,279 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:27:22,284 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:27:22,284 - [INFO] <GETTER> <DATA>
+2016-02-12 00:27:42,280 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:27:42,281 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:27:42,291 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:27:42,292 - [INFO] <GETTER> <DATA>
+2016-02-12 00:28:02,277 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:28:02,278 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:28:02,284 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:28:02,285 - [INFO] <GETTER> <DATA>
+2016-02-12 00:28:22,280 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:28:22,281 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:28:22,286 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:28:22,286 - [INFO] <GETTER> <DATA>
+2016-02-12 00:28:42,281 - [INFO] <GETTER> Y.Nathan ask if is debter
+2016-02-12 00:28:42,282 - [INFO] <BUSINESS_LOGIC> Get user if is a debter
+2016-02-12 00:28:42,293 - [INFO] <DATA_BASE> Get Temp Gelts
+2016-02-12 00:28:42,293 - [INFO] <GETTER> <DATA>
