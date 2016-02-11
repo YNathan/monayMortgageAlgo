@@ -1,7 +1,6 @@
 package controllers;
 
 import play.mvc.*;
-
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.concurrent.locks.Lock;
@@ -20,8 +19,7 @@ import play.libs.Json;
 public class getter {
 	private static final Lock lock = new ReentrantLock();
 	private static getterBL getterBL = new getterBL();
-	
-	
+
 	public static Result isLoginPermited(String szUserName, String szPassword) {
 		if ((szUserName != null) && (szPassword != null)) {
 			if (getterBL.isLoginPermited(szUserName, szPassword)) {

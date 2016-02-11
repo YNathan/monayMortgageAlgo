@@ -1,4 +1,5 @@
 [0m[[0mdebug[0m] [0mCopy play resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(C:\devl\work\GIT_WS\MyServer\public\favicon.ico,C:\devl\work\GIT_WS\MyServer\target\scala-2.10\classes\public\favicon.ico)[0m
 [0m[[0mdebug[0m] [0m	(C:\devl\work\GIT_WS\MyServer\public\index.html,C:\devl\work\GIT_WS\MyServer\target\scala-2.10\classes\public\index.html)[0m
 [0m[[0mdebug[0m] [0m	(C:\devl\work\GIT_WS\MyServer\public\.idea\.name,C:\devl\work\GIT_WS\MyServer\target\scala-2.10\classes\public\.idea\.name)[0m
 [0m[[0mdebug[0m] [0m	(C:\devl\work\GIT_WS\MyServer\public\.idea\encodings.xml,C:\devl\work\GIT_WS\MyServer\target\scala-2.10\classes\public\.idea\encodings.xml)[0m
@@ -11,6 +12,7 @@
 [0m[[0mdebug[0m] [0m	(C:\devl\work\GIT_WS\MyServer\public\dist\sweetalert.css,C:\devl\work\GIT_WS\MyServer\target\scala-2.10\classes\public\dist\sweetalert.css)[0m
 [0m[[0mdebug[0m] [0m	(C:\devl\work\GIT_WS\MyServer\public\dist\sweetalert.min.js,C:\devl\work\GIT_WS\MyServer\target\scala-2.10\classes\public\dist\sweetalert.min.js)[0m
 [0m[[0mdebug[0m] [0m	(C:\devl\work\GIT_WS\MyServer\public\images\background.jpg,C:\devl\work\GIT_WS\MyServer\target\scala-2.10\classes\public\images\background.jpg)[0m
+[0m[[0mdebug[0m] [0m	(C:\devl\work\GIT_WS\MyServer\public\images\favicon.ico,C:\devl\work\GIT_WS\MyServer\target\scala-2.10\classes\public\images\favicon.ico)[0m
 [0m[[0mdebug[0m] [0m	(C:\devl\work\GIT_WS\MyServer\public\images\favicon.png,C:\devl\work\GIT_WS\MyServer\target\scala-2.10\classes\public\images\favicon.png)[0m
 [0m[[0mdebug[0m] [0m	(C:\devl\work\GIT_WS\MyServer\public\images\thumbs-up.jpg,C:\devl\work\GIT_WS\MyServer\target\scala-2.10\classes\public\images\thumbs-up.jpg)[0m
 [0m[[0mdebug[0m] [0m	(C:\devl\work\GIT_WS\MyServer\public\javascripts\1.js,C:\devl\work\GIT_WS\MyServer\target\scala-2.10\classes\public\javascripts\1.js)[0m
