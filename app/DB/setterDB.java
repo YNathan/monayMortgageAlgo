@@ -98,9 +98,8 @@ public class setterDB {
 	 */
 	public boolean deleteGelt(Gelt m_gelt) {
 		boolean bIsWasAdded = true;
-		// Deleting all data-base like this we dosn't want to have duplicate
-		// data ("debts")
-		deleteTable("yankalee.temp_debts");
+		// Deleting the temp debt that was inserted l
+
 		try {
 			Class.forName("com.mysql.jdbc.Driver").newInstance();
 			connect = DriverManager.getConnection("jdbc:mysql://localhost/yankalee?" + "user=root&password=Ny7516399");
@@ -108,7 +107,7 @@ public class setterDB {
 
 			// PreparedStatements can use variables and are more efficient
 			preparedStatement = connect
-					.prepareStatement("delete from temp_bank where debter_id = ? and amount = ? and entitled_id = ? ");
+					.prepareStatement("delete from temp_debts where debter_id = ? and amount = ? and entitled_id = ? ");
 			preparedStatement.setInt(1, m_gelt.getDebterID());
 			preparedStatement.setInt(2, m_gelt.getAmount());
 			preparedStatement.setInt(3, m_gelt.getEntitledID());

@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for myserver#myserver_2.10;1.0-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies myserver#myserver_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.3 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@49238b58[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7c1075f1[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.3[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.10.3[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.3 in sbt-chain[0m
@@ -745,7 +745,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.6->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies myserver#myserver_2.10;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.10;2.2.6 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#play-cache_2.10;2.2.6 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@20aee238[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@209cf8ca[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#play-cache_2.10;2.2.6[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.play#play-cache_2.10;2.2.6[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe.play#play-cache_2.10;2.2.6 in sbt-chain[0m
@@ -5253,7 +5253,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.3!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.3!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 785ms :: artifacts dl 45ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 6395ms :: artifacts dl 107ms[0m
 [0m[[0mdebug[0m] [0m	report for myserver#myserver_2.10;1.0-SNAPSHOT compile produced in C:\devl\work\GIT_WS\MyServer\target\resolution-cache\reports\myserver-myserver_2.10-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for myserver#myserver_2.10;1.0-SNAPSHOT runtime produced in C:\devl\work\GIT_WS\MyServer\target\resolution-cache\reports\myserver-myserver_2.10-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for myserver#myserver_2.10;1.0-SNAPSHOT test produced in C:\devl\work\GIT_WS\MyServer\target\resolution-cache\reports\myserver-myserver_2.10-test.xml[0m
@@ -5267,5 +5267,5 @@
 [0m[[0mdebug[0m] [0m	report for myserver#myserver_2.10;1.0-SNAPSHOT docs produced in C:\devl\work\GIT_WS\MyServer\target\resolution-cache\reports\myserver-myserver_2.10-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for myserver#myserver_2.10;1.0-SNAPSHOT pom produced in C:\devl\work\GIT_WS\MyServer\target\resolution-cache\reports\myserver-myserver_2.10-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for myserver#myserver_2.10;1.0-SNAPSHOT scala-tool produced in C:\devl\work\GIT_WS\MyServer\target\resolution-cache\reports\myserver-myserver_2.10-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (785ms resolve - 45ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (6395ms resolve - 107ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

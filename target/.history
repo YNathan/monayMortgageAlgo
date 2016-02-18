@@ -186,3 +186,7 @@ eclipse
 clean
 eclipse
 run
+clean
+eclipse
+run
+exit
