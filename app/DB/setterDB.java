@@ -23,6 +23,11 @@ public class setterDB {
 	private static Statement statement;
 	private static ResultSet resultSet;
 	private PreparedStatement preparedStatement;
+	private static String TABLE_BANK_NAME = "yankalee.bank";
+	private static String TABLE_TEMP_DEBTS_NAME = "yankalee.temp_debts";
+	private static String TABLE_USERS_NAME = "yankalee.users";
+	private static String DATA_BASE_USER_NAME = "root";
+	private static String DATA_BASE_PASSWORD_NAME = "Ny7516399";
 
 	/**
 	 * @param m_gelts
@@ -34,11 +39,12 @@ public class setterDB {
 		deleteTable("yankalee.bank");
 		try {
 			Class.forName("com.mysql.jdbc.Driver").newInstance();
-			connect = DriverManager.getConnection("jdbc:mysql://localhost/yankalee?" + "user=root&password=Ny7516399");
+			connect = DriverManager.getConnection("jdbc:mysql://localhost/yankalee?user=" + DATA_BASE_USER_NAME
+					+ "&password=" + DATA_BASE_PASSWORD_NAME);
 			play.Logger.info("Insert new gelts to the data-base");
 			for (Gelt currGelts : m_gelts) {
 				// PreparedStatements can use variables and are more efficient
-				preparedStatement = connect.prepareStatement("insert into yankalee.bank values (? , ?, ?)");
+				preparedStatement = connect.prepareStatement("insert into " + TABLE_BANK_NAME + " values (? , ?, ?)");
 				preparedStatement.setInt(1, currGelts.getDebterID());
 				preparedStatement.setInt(2, currGelts.getAmount());
 				preparedStatement.setInt(3, currGelts.getEntitledID());
@@ -69,11 +75,12 @@ public class setterDB {
 		deleteTable("yankalee.temp_debts");
 		try {
 			Class.forName("com.mysql.jdbc.Driver").newInstance();
-			connect = DriverManager.getConnection("jdbc:mysql://localhost/yankalee?" + "user=root&password=Ny7516399");
+			connect = DriverManager.getConnection("jdbc:mysql://localhost/yankalee?user=" + DATA_BASE_USER_NAME
+					+ "&password=" + DATA_BASE_PASSWORD_NAME);
 			play.Logger.info("Insert new temp gelt to the data-base");
 
 			// PreparedStatements can use variables and are more efficient
-			preparedStatement = connect.prepareStatement("insert into yankalee.temp_debts values (? , ?, ?)");
+			preparedStatement = connect.prepareStatement("insert into " + TABLE_TEMP_DEBTS_NAME + " values (? , ?, ?)");
 			preparedStatement.setInt(1, m_gelt.getDebterID());
 			preparedStatement.setInt(2, m_gelt.getAmount());
 			preparedStatement.setInt(3, m_gelt.getEntitledID());
@@ -102,12 +109,13 @@ public class setterDB {
 
 		try {
 			Class.forName("com.mysql.jdbc.Driver").newInstance();
-			connect = DriverManager.getConnection("jdbc:mysql://localhost/yankalee?" + "user=root&password=Ny7516399");
+			connect = DriverManager.getConnection("jdbc:mysql://localhost/yankalee?user=" + DATA_BASE_USER_NAME
+					+ "&password=" + DATA_BASE_PASSWORD_NAME);
 			play.Logger.info(" Insert new temp gelt to the data-base");
 
 			// PreparedStatements can use variables and are more efficient
-			preparedStatement = connect
-					.prepareStatement("delete from temp_debts where debter_id = ? and amount = ? and entitled_id = ? ");
+			preparedStatement = connect.prepareStatement("delete from " + TABLE_TEMP_DEBTS_NAME
+					+ " where debter_id = ? and amount = ? and entitled_id = ? ");
 			preparedStatement.setInt(1, m_gelt.getDebterID());
 			preparedStatement.setInt(2, m_gelt.getAmount());
 			preparedStatement.setInt(3, m_gelt.getEntitledID());
@@ -135,7 +143,8 @@ public class setterDB {
 	public void deleteTable(String tableName) {
 		try {
 			Class.forName("com.mysql.jdbc.Driver").newInstance();
-			connect = DriverManager.getConnection("jdbc:mysql://localhost/yankalee?" + "user=root&password=Ny7516399");
+			connect = DriverManager.getConnection("jdbc:mysql://localhost/yankalee?user=" + DATA_BASE_USER_NAME
+					+ "&password=" + DATA_BASE_PASSWORD_NAME);
 			// PreparedStatements can use variables and are more efficient
 			preparedStatement = connect.prepareStatement("DELETE FROM " + tableName + ";");
 			preparedStatement.executeUpdate();
@@ -197,11 +206,12 @@ public class setterDB {
 
 			// String strConnection=
 			// "Server=127.0.0.1;Port=3306;Database=yankalee;Uid=root;password=Ny7516399;";
-			connect = DriverManager.getConnection("jdbc:mysql://localhost/yankalee?" + "user=root&password=Ny7516399");
+			connect = DriverManager.getConnection("jdbc:mysql://localhost/yankalee?user=" + DATA_BASE_USER_NAME
+					+ "&password=" + DATA_BASE_PASSWORD_NAME);
 
 			// PreparedStatements can use variables and are more efficient
-			preparedStatement = connect.prepareStatement(
-					"insert into users (user_name,first_name,last_name,telephone,email,password,birthdate) values (?, ?, ?, ?, ? , ?, ?)");
+			preparedStatement = connect.prepareStatement("insert into " + TABLE_USERS_NAME
+					+ " (user_name,first_name,last_name,telephone,email,password,birthdate) values (?, ?, ?, ?, ? , ?, ?)");
 			play.Logger.info(" Insert new user to the data-base");
 			// Parameters start with 1
 			preparedStatement.setString(1, userName);
@@ -232,7 +242,8 @@ public class setterDB {
 	public void commit() {
 		try {
 			Class.forName("com.mysql.jdbc.Driver").newInstance();
-			connect = DriverManager.getConnection("jdbc:mysql://localhost/yankalee?" + "user=root&password=Ny7516399");
+			connect = DriverManager.getConnection("jdbc:mysql://localhost/yankalee?user=" + DATA_BASE_USER_NAME
+					+ "&password=" + DATA_BASE_PASSWORD_NAME);
 			// PreparedStatements can use variables and are more efficient
 			preparedStatement = connect.prepareStatement("commit");
 			preparedStatement.executeUpdate();

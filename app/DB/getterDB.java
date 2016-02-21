@@ -21,17 +21,23 @@ public class getterDB {
 	private static Connection connect;
 	private static Statement statement;
 	private static ResultSet resultSet;
+	private static String TABLE_BANK_NAME = "yankalee.bank";
+	private static String TABLE_TEMP_DEBTS_NAME = "yankalee.temp_debts";
+	private static String TABLE_USERS_NAME = "yankalee.users";
+	private static String DATA_BASE_USER_NAME = "root";
+	private static String DATA_BASE_PASSWORD_NAME = "Ny7516399";
 
 	public ArrayList<String> getUserNames() {
 		lock.lock();
 		ArrayList<String> userNames = new ArrayList<>();
 		try {
 			Class.forName("com.mysql.jdbc.Driver").newInstance();
-			connect = DriverManager.getConnection("jdbc:mysql://localhost/yankalee?" + "user=root&password=Ny7516399");
+			connect = DriverManager.getConnection("jdbc:mysql://localhost/yankalee?user=" + DATA_BASE_USER_NAME
+					+ "&password=" + DATA_BASE_PASSWORD_NAME);
 			// Statements allow to issue SQL queries to the database
 			statement = connect.createStatement();
 			// Result set get the result of the SQL query
-			resultSet = statement.executeQuery("select * from users");
+			resultSet = statement.executeQuery("select * from " + TABLE_USERS_NAME);
 			// INFO
 			play.Logger.info("<DATA_BASE> Get User-Names");
 
@@ -57,11 +63,12 @@ public class getterDB {
 		ArrayList<String> emails = new ArrayList<>();
 		try {
 			Class.forName("com.mysql.jdbc.Driver").newInstance();
-			connect = DriverManager.getConnection("jdbc:mysql://localhost/yankalee?" + "user=root&password=Ny7516399");
+			connect = DriverManager.getConnection("jdbc:mysql://localhost/yankalee?user=" + DATA_BASE_USER_NAME
+					+ "&password=" + DATA_BASE_PASSWORD_NAME);
 			// Statements allow to issue SQL queries to the database
 			statement = connect.createStatement();
 			// Result set get the result of the SQL query
-			resultSet = statement.executeQuery("select * from users");
+			resultSet = statement.executeQuery("select * from " + TABLE_USERS_NAME);
 			// INFO
 			play.Logger.info("<DATA_BASE> Get Emails");
 
@@ -87,11 +94,12 @@ public class getterDB {
 		ArrayList<UserLogin> userLogins = new ArrayList<UserLogin>();
 		try {
 			Class.forName("com.mysql.jdbc.Driver").newInstance();
-			connect = DriverManager.getConnection("jdbc:mysql://localhost/yankalee?" + "user=root&password=Ny7516399");
+			connect = DriverManager.getConnection("jdbc:mysql://localhost/yankalee?user=" + DATA_BASE_USER_NAME
+					+ "&password=" + DATA_BASE_PASSWORD_NAME);
 			// Statements allow to issue SQL queries to the database
 			statement = connect.createStatement();
 			// Result set get the result of the SQL query
-			resultSet = statement.executeQuery("select * from users");
+			resultSet = statement.executeQuery("select * from " + TABLE_USERS_NAME);
 			// INFO
 			play.Logger.info("<DATA_BASE> Get User-Login");
 
@@ -118,11 +126,12 @@ public class getterDB {
 		ArrayList<User> usersLst = new ArrayList<>();
 		try {
 			Class.forName("com.mysql.jdbc.Driver").newInstance();
-			connect = DriverManager.getConnection("jdbc:mysql://localhost/yankalee?" + "user=root&password=Ny7516399");
+			connect = DriverManager.getConnection("jdbc:mysql://localhost/yankalee?user=" + DATA_BASE_USER_NAME
+					+ "&password=" + DATA_BASE_PASSWORD_NAME);
 			// Statements allow to issue SQL queries to the database
 			statement = connect.createStatement();
 			// Result set get the result of the SQL query
-			resultSet = statement.executeQuery("select * from users");
+			resultSet = statement.executeQuery("select * from " + TABLE_USERS_NAME);
 			// INFO
 			play.Logger.info("<DATA_BASE> Get Users");
 
@@ -151,11 +160,12 @@ public class getterDB {
 		ArrayList<Gelt> gelts = new ArrayList<>();
 		try {
 			Class.forName("com.mysql.jdbc.Driver").newInstance();
-			connect = DriverManager.getConnection("jdbc:mysql://localhost/yankalee?" + "user=root&password=Ny7516399");
+			connect = DriverManager.getConnection("jdbc:mysql://localhost/yankalee?user=" + DATA_BASE_USER_NAME
+					+ "&password=" + DATA_BASE_PASSWORD_NAME);
 			// Statements allow to issue SQL queries to the database
 			statement = connect.createStatement();
 			// Result set get the result of the SQL query
-			resultSet = statement.executeQuery("select * from bank");
+			resultSet = statement.executeQuery("select * from " + TABLE_BANK_NAME);
 			// INFO
 			play.Logger.info("<DATA_BASE> Get Gelts");
 
@@ -187,11 +197,12 @@ public class getterDB {
 		ArrayList<Gelt> gelts = new ArrayList<>();
 		try {
 			Class.forName("com.mysql.jdbc.Driver").newInstance();
-			connect = DriverManager.getConnection("jdbc:mysql://localhost/yankalee?" + "user=root&password=Ny7516399");
+			connect = DriverManager.getConnection("jdbc:mysql://localhost/yankalee?user=" + DATA_BASE_USER_NAME
+					+ "&password=" + DATA_BASE_PASSWORD_NAME);
 			// Statements allow to issue SQL queries to the database
 			statement = connect.createStatement();
 			// Result set get the result of the SQL query
-			resultSet = statement.executeQuery("select * from temp_debts");
+			resultSet = statement.executeQuery("select * from " + TABLE_TEMP_DEBTS_NAME);
 			// INFO
 			play.Logger.info("<DATA_BASE> Get Temp Gelts");
 
