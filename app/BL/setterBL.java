@@ -53,7 +53,6 @@ public class setterBL {
 		setterDB.setGelts(geltsOriginal);
 		isInserted = true;
 		return isInserted;
-
 	}
 
 	/**
@@ -96,6 +95,34 @@ public class setterBL {
 						isUpdate = true;
 					}
 				}
+				else if (currGelt.getEntitledID() == m_gelt.getDebterID()) {
+					int nNewAmount = currGelt.getAmount() - m_gelt.getAmount();
+					if (nNewAmount == 0) {
+						currGelt.setnEntitledID(m_gelt.getEntitledID());
+						isUpdate = true;
+					} else if ((nNewAmount > 0)) {
+						currGelt.setnAmount(nNewAmount);
+
+						Gelt geltToAdd = new Gelt(currGelt.getDebterID(), m_gelt.getAmount(), m_gelt.getEntitledID());
+						if ((!foundChavrousse(m_gelts, geltToAdd))
+								&& (!foundSheyteGomour(m_gelts, m_geltHelper, geltToAdd))) {
+							m_geltHelper.add(geltToAdd);
+						}
+
+						isUpdate = true;
+					} else if ((nNewAmount < 0)) {
+						currGelt.setnEntitledID(m_gelt.getEntitledID());
+
+						Gelt geltToAdd = new Gelt(m_gelt.getDebterID(), Math.abs(nNewAmount), m_gelt.getEntitledID());
+						if ((!foundChavrousse(m_gelts, geltToAdd))
+								&& (!foundSheyteGomour(m_gelts, m_geltHelper, geltToAdd))) {
+							m_geltHelper.add(geltToAdd);
+						}
+						isUpdate = true;
+					}
+
+				}
+
 			}
 		}
 		return isUpdate;
@@ -268,8 +295,8 @@ public class setterBL {
 		boolean bWasAdded;
 
 		// INFO
-		play.Logger
-				.info("<BUSINESS_LOGIC> The Gelt was confirmed by the debter "+ szDebterName +" the system will send for input in the data_base");
+		play.Logger.info("<BUSINESS_LOGIC> The Gelt was confirmed by the debter " + szDebterName
+				+ " the system will send for input in the data_base");
 		// Insert to the records of the data base
 		bWasAdded = insertGelt(getterBL.getIdByName(szDebterName), Integer.parseInt(szAmount),
 				getterBL.getIdByName(szEntitledName));

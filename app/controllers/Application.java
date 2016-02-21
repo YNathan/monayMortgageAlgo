@@ -8,7 +8,7 @@ import views.html.*;
 public class Application extends Controller {
 
 	public static Result index() {
-		System.out.println("\n[INFO] Hellooooooo\n");
+		System.out.println("\n[INFO] Hello server\n");
 		return redirect("assets/index.html");
 	}
 	
