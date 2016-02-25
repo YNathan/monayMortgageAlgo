@@ -67,6 +67,7 @@ public class setterBL {
 	 * @return
 	 */
 	private boolean shiboudeDeRavNosson(ArrayList<Gelt> m_gelts, ArrayList<Gelt> m_geltHelper, Gelt m_gelt) {
+		play.Logger.info("shiboude De Rav Nosson Algorithm Started");
 		boolean isUpdate = false;
 		for (Gelt currGelt : m_gelts) {
 			if (!isUpdate) {
@@ -94,8 +95,7 @@ public class setterBL {
 						}
 						isUpdate = true;
 					}
-				}
-				else if (currGelt.getEntitledID() == m_gelt.getDebterID()) {
+				} else if (currGelt.getEntitledID() == m_gelt.getDebterID()) {
 					int nNewAmount = currGelt.getAmount() - m_gelt.getAmount();
 					if (nNewAmount == 0) {
 						currGelt.setnEntitledID(m_gelt.getEntitledID());
@@ -139,6 +139,7 @@ public class setterBL {
 	 * @return true if was found (was update)
 	 */
 	private boolean foundChavrousse(ArrayList<Gelt> m_gelts, Gelt m_gelt) {
+		play.Logger.info("Found Chavrousee Algorithm Started");
 		boolean isUpdate = false;
 		for (Gelt currGelt : m_gelts) {
 			if (!isUpdate) {
@@ -149,6 +150,7 @@ public class setterBL {
 				}
 			}
 		}
+		play.Logger.info("Found Chavrousee Algorithm Finished with value : " + isUpdate);
 		return isUpdate;
 	}
 
@@ -160,6 +162,7 @@ public class setterBL {
 	 * @return
 	 */
 	private boolean foundSheyteGomour(ArrayList<Gelt> m_gelts, ArrayList<Gelt> m_geltHelper, Gelt m_gelt) {
+		play.Logger.info("Found Sheyte Gomour Algorithm Started");
 		final int N_NULL_NUMBER = -1;
 		// We did'nt want to continue if we update
 		boolean isUpdate = false;
@@ -188,6 +191,7 @@ public class setterBL {
 		if (nIndexToRemove != N_NULL_NUMBER) {
 			m_gelts.remove(nIndexToRemove);
 		}
+		play.Logger.info("Found Sheyte Gomour Algorithm Finished with value :" + isUpdate);
 		return isUpdate;
 	}
 

@@ -135,6 +135,50 @@ public class setterDB {
 	}
 
 	/**
+	 * Will edit a specific debt
+	 * 
+	 * @param m_origianlGelt
+	 *            - the gelt that we are want to change his values
+	 * @param m_newGelt
+	 *            - the gelt with the new values to editing
+	 * @return
+	 */
+	public boolean updateGelt(Gelt m_origianlGelt, Gelt m_newGelt) {
+		boolean bIsWasAdded = true;
+		// Deleting the temp debt that was inserted l
+
+		try {
+			Class.forName("com.mysql.jdbc.Driver").newInstance();
+			connect = DriverManager.getConnection("jdbc:mysql://localhost/yankalee?user=" + DATA_BASE_USER_NAME
+					+ "&password=" + DATA_BASE_PASSWORD_NAME);
+			play.Logger.info(" Update gelt to the data-base");
+
+			// PreparedStatements can use variables and are more efficient
+			preparedStatement = connect.prepareStatement("UPDATE " + TABLE_BANK_NAME
+					+ " SET debter_id = ? , amount = ? , entitled_id = ?  WHERE debter_id = ? AND amount = ? AND entitled_id = ? ;");
+
+			preparedStatement.setInt(1, m_newGelt.getDebterID());
+			preparedStatement.setInt(2, m_newGelt.getAmount());
+			preparedStatement.setInt(3, m_newGelt.getEntitledID());
+			preparedStatement.setInt(4, m_origianlGelt.getDebterID());
+			preparedStatement.setInt(5, m_origianlGelt.getAmount());
+			preparedStatement.setInt(6, m_origianlGelt.getEntitledID());
+			preparedStatement.executeUpdate();
+
+		} catch (Exception e) {
+			bIsWasAdded = false;
+			e.printStackTrace();
+			play.Logger.error(e.getMessage());
+		} finally {
+			// Closing the resultSet
+			close();
+		}
+		// Commit changes
+		commit();
+		return bIsWasAdded;
+	}
+
+	/**
 	 * This method its for helping the testing and init the table that asked
 	 * 
 	 * @param tableName
