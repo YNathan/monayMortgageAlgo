@@ -6,6 +6,9 @@ import java.util.Map;
 import com.fasterxml.jackson.databind.JsonNode;
 
 import BL.getterBL;
+import DB.getterDB;
+import DB.setterDB;
+import Entity.Gelt;
 
 import org.junit.*;
 
@@ -40,5 +43,25 @@ public class ApplicationTest {
 		Content html = views.html.index.render("Your new application is ready.");
 		assertThat(contentType(html)).isEqualTo("text/html");
 		assertThat(contentAsString(html)).contains("Your new application is ready.");
+	}
+	
+	@Test
+	public void checkUpdateRow()
+	{
+		setterDB setterDB = new setterDB();
+		ArrayList<Gelt> gelts = new ArrayList<>();
+		Gelt gelt = new Gelt(10,100,20);
+		gelts.add(new Gelt(10,100,20));
+		setterDB.setGelts(gelts);
+		ArrayList<Gelt> expectedGelts = new getterDB().getGelts();
+		for (Gelt currGelt : expectedGelts) {
+			System.out.println(currGelt);
+		}
+		setterDB.updateGelt(gelt, new Gelt(20, 56, 12));
+		expectedGelts = new getterDB().getGelts();
+		for (Gelt currGelt : expectedGelts) {
+			System.out.println(currGelt);
+		}
+		
 	}
 }

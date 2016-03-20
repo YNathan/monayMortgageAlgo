@@ -279,19 +279,40 @@ public class setterBL {
 		if ((getterBL.isUserNameAlreadyExist(szDebterName)) && (getterBL.isUserNameAlreadyExist(szEntitledName))) {
 
 			// check if was deleted
-			bWasDeleted = setterDB.deleteGelt(new Gelt(getterBL.getIdByName(szDebterName), Integer.parseInt(szAmount),
+			bWasDeleted = setterDB.deleteTempGelt(new Gelt(getterBL.getIdByName(szDebterName), Integer.parseInt(szAmount),
 					getterBL.getIdByName(szEntitledName)));
 		}
 		return bWasDeleted;
 	}
 
 	/**
-	 * Confirm from a debter if the data of this debt is true will insert to the
-	 * debts data base and deleted from the waiting from the data base
+	 * Delete a debt who are in the data base 
 	 * 
 	 * @param szDebterName
 	 * @param szAmount
 	 * @param szEntitledName
+	 * @return true if was deleted
+	 */
+	public boolean deleteDebt(String szDebterName, String szAmount, String szEntitledName) {
+		boolean bWasDeleted = false;
+		// Check if user name exist just for the security
+		if ((getterBL.isUserNameAlreadyExist(szDebterName)) && (getterBL.isUserNameAlreadyExist(szEntitledName))) {
+			// check if was deleted
+			bWasDeleted = setterDB.deleteGelt(new Gelt(getterBL.getIdByName(szDebterName), Integer.parseInt(szAmount),
+					getterBL.getIdByName(szEntitledName)));
+		}
+		return bWasDeleted;
+	}
+	/**
+	 * Confirm from a debter if the data of this debt is true will insert to the
+	 * debts data base and deleted from the waiting from the data base
+	 * 
+	 * @param szDebterName
+	 *            - name of the debter
+	 * @param szAmount
+	 *            - amount that suppose to debt
+	 * @param szEntitledName
+	 *            - the name of the entitled
 	 * @return true if was added to the data base and was deleted from the temp
 	 *         data base
 	 */
@@ -309,4 +330,45 @@ public class setterBL {
 		return bWasAdded;
 	}
 
+	/**
+	 * Not confirm from a debter if the data of this debt is true will deleted
+	 * from the waiting from the data base
+	 * 
+	 * @param szDebterName
+	 *            - name of the debter
+	 * @param szAmount
+	 *            - amount that suppose to debt
+	 * @param szEntitledName
+	 *            - the name of the entitled
+	 * @return true if was deleted from the temp data base
+	 */
+	public boolean notConfirm(String szDebterName, String szAmount, String szEntitledName) {
+		boolean bWasAdded;
+		// INFO
+		play.Logger.info("<BUSINESS_LOGIC> The Gelt was'nt confirmed by the debter " + szDebterName
+				+ " the system will delete from the data_base");
+		// Delete from the records of the temp debts who waiting for confirm
+		bWasAdded = deleteTempDebt(szDebterName, szAmount, szEntitledName);
+		return bWasAdded;
+	}
+	/**
+	 * Pay a debt send to delete
+	 * 
+	 * @param szDebterName
+	 *            - name of the debtor
+	 * @param szAmount
+	 *            - amount that suppose to debt
+	 * @param szEntitledName
+	 *            - the name of the entitled
+	 * @return true if was deleted from the temp data base
+	 */
+	public boolean pay(String szDebterName, String szAmount, String szEntitledName) {
+		boolean bWasAdded;
+		// INFO
+		play.Logger.info("<BUSINESS_LOGIC> The Gelt was'nt confirmed by the debter " + szDebterName
+				+ " the system will delete from the data_base");
+		// Delete from the records of the temp debts who waiting for confirm
+		bWasAdded = deleteDebt(szDebterName, szAmount, szEntitledName);
+		return bWasAdded;
+	}
 }

@@ -20,6 +20,8 @@ POST	/INSERT_GELT/:szDebterName/:szAmount/:szEntitledName controllers.setter.new
 POST    /REGISTER/:userName/:firstName/:lastName/:telephone/:email/:password/:birthdate    controllers.setter.registerNewUser(userName:String,firstName:String,lastName:String,telephone:String,email:String,password:String,birthdate:String)
 GET 	/IS_DEBTER/:szUserName 		controllers.getter.checkIfUserIsDebter(szUserName:String)
 POST  	/CONFIRMATION/:szDebterName/:szAmount/:szEntitledName controllers.setter.confirm(szDebterName:String,szAmount:String,szEntitledName:String)
+POST  	/NOT_CONFIRMATION/:szDebterName/:szAmount/:szEntitledName controllers.setter.notConfirm(szDebterName:String,szAmount:String,szEntitledName:String)
+POST  	/PAY/:szDebterName/:szAmount/:szEntitledName controllers.setter.pay(szDebterName:String,szAmount:String,szEntitledName:String)
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.at(path="/public", file)
                 

@@ -2,11 +2,13 @@ package DB;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
+
 import Entity.Gelt;
 import Entity.User;
 import Entity.UserLogin;
@@ -19,6 +21,7 @@ import Entity.UserLogin;
 public class getterDB {
 	private final Lock lock = new ReentrantLock();
 	private static Connection connect;
+	private static PreparedStatement preparedStatement;
 	private static Statement statement;
 	private static ResultSet resultSet;
 	private static String TABLE_BANK_NAME = "yankalee.bank";
@@ -35,9 +38,9 @@ public class getterDB {
 			connect = DriverManager.getConnection("jdbc:mysql://localhost/yankalee?user=" + DATA_BASE_USER_NAME
 					+ "&password=" + DATA_BASE_PASSWORD_NAME);
 			// Statements allow to issue SQL queries to the database
-			statement = connect.createStatement();
+			preparedStatement = connect.prepareStatement("select * from " + TABLE_USERS_NAME);
 			// Result set get the result of the SQL query
-			resultSet = statement.executeQuery("select * from " + TABLE_USERS_NAME);
+			resultSet = preparedStatement.executeQuery();
 			// INFO
 			play.Logger.info("<DATA_BASE> Get User-Names");
 
@@ -65,10 +68,12 @@ public class getterDB {
 			Class.forName("com.mysql.jdbc.Driver").newInstance();
 			connect = DriverManager.getConnection("jdbc:mysql://localhost/yankalee?user=" + DATA_BASE_USER_NAME
 					+ "&password=" + DATA_BASE_PASSWORD_NAME);
+
 			// Statements allow to issue SQL queries to the database
-			statement = connect.createStatement();
+			preparedStatement = connect.prepareStatement("select * from " + TABLE_USERS_NAME);
 			// Result set get the result of the SQL query
-			resultSet = statement.executeQuery("select * from " + TABLE_USERS_NAME);
+			resultSet = preparedStatement.executeQuery();
+
 			// INFO
 			play.Logger.info("<DATA_BASE> Get Emails");
 
@@ -97,9 +102,9 @@ public class getterDB {
 			connect = DriverManager.getConnection("jdbc:mysql://localhost/yankalee?user=" + DATA_BASE_USER_NAME
 					+ "&password=" + DATA_BASE_PASSWORD_NAME);
 			// Statements allow to issue SQL queries to the database
-			statement = connect.createStatement();
+			preparedStatement = connect.prepareStatement("select * from " + TABLE_USERS_NAME);
 			// Result set get the result of the SQL query
-			resultSet = statement.executeQuery("select * from " + TABLE_USERS_NAME);
+			resultSet = preparedStatement.executeQuery();
 			// INFO
 			play.Logger.info("<DATA_BASE> Get User-Login");
 
@@ -129,9 +134,9 @@ public class getterDB {
 			connect = DriverManager.getConnection("jdbc:mysql://localhost/yankalee?user=" + DATA_BASE_USER_NAME
 					+ "&password=" + DATA_BASE_PASSWORD_NAME);
 			// Statements allow to issue SQL queries to the database
-			statement = connect.createStatement();
+			preparedStatement = connect.prepareStatement("select * from " + TABLE_USERS_NAME);
 			// Result set get the result of the SQL query
-			resultSet = statement.executeQuery("select * from " + TABLE_USERS_NAME);
+			resultSet = preparedStatement.executeQuery();
 			// INFO
 			play.Logger.info("<DATA_BASE> Get Users");
 
@@ -163,9 +168,9 @@ public class getterDB {
 			connect = DriverManager.getConnection("jdbc:mysql://localhost/yankalee?user=" + DATA_BASE_USER_NAME
 					+ "&password=" + DATA_BASE_PASSWORD_NAME);
 			// Statements allow to issue SQL queries to the database
-			statement = connect.createStatement();
+			preparedStatement = connect.prepareStatement("select * from " + TABLE_BANK_NAME);
 			// Result set get the result of the SQL query
-			resultSet = statement.executeQuery("select * from " + TABLE_BANK_NAME);
+			resultSet = preparedStatement.executeQuery();
 			// INFO
 			play.Logger.info("<DATA_BASE> Get Gelts");
 
@@ -200,9 +205,9 @@ public class getterDB {
 			connect = DriverManager.getConnection("jdbc:mysql://localhost/yankalee?user=" + DATA_BASE_USER_NAME
 					+ "&password=" + DATA_BASE_PASSWORD_NAME);
 			// Statements allow to issue SQL queries to the database
-			statement = connect.createStatement();
+			preparedStatement = connect.prepareStatement("select * from " + TABLE_TEMP_DEBTS_NAME);
 			// Result set get the result of the SQL query
-			resultSet = statement.executeQuery("select * from " + TABLE_TEMP_DEBTS_NAME);
+			resultSet = preparedStatement.executeQuery();
 			// INFO
 			play.Logger.info("<DATA_BASE> Get Temp Gelts");
 
@@ -228,6 +233,9 @@ public class getterDB {
 		try {
 			if (resultSet != null) {
 				resultSet.close();
+			}
+			if (preparedStatement != null) {
+				preparedStatement.close();
 			}
 			if (statement != null) {
 				statement.close();

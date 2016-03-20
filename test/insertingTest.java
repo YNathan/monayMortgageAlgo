@@ -1,4 +1,4 @@
-import BL.getterBL;
+
 import BL.setterBL;
 import DB.getterDB;
 import DB.setterDB;

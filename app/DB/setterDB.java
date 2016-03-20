@@ -20,9 +20,8 @@ import Entity.Gelt;
  */
 public class setterDB {
 	private static Connection connect;
-	private static Statement statement;
 	private static ResultSet resultSet;
-	private PreparedStatement preparedStatement;
+	private static PreparedStatement preparedStatement;
 	private static String TABLE_BANK_NAME = "yankalee.bank";
 	private static String TABLE_TEMP_DEBTS_NAME = "yankalee.temp_debts";
 	private static String TABLE_USERS_NAME = "yankalee.users";
@@ -103,7 +102,7 @@ public class setterDB {
 	 * 
 	 * @param m_gelt
 	 */
-	public boolean deleteGelt(Gelt m_gelt) {
+	public boolean deleteTempGelt(Gelt m_gelt) {
 		boolean bIsWasAdded = true;
 		// Deleting the temp debt that was inserted l
 
@@ -178,6 +177,42 @@ public class setterDB {
 		return bIsWasAdded;
 	}
 
+	/**
+	 * 
+	 * @param m_gelt
+	 */
+	public boolean deleteGelt(Gelt m_gelt) {
+		boolean bIsWasAdded = true;
+		// Deleting the temp debt that was inserted l
+
+		try {
+			Class.forName("com.mysql.jdbc.Driver").newInstance();
+			connect = DriverManager.getConnection("jdbc:mysql://localhost/yankalee?user=" + DATA_BASE_USER_NAME
+					+ "&password=" + DATA_BASE_PASSWORD_NAME);
+			play.Logger.info(" Insert new temp gelt to the data-base");
+
+			// PreparedStatements can use variables and are more efficient
+			preparedStatement = connect.prepareStatement("delete from " + TABLE_BANK_NAME
+					+ " where debter_id = ? and amount = ? and entitled_id = ? ");
+			preparedStatement.setInt(1, m_gelt.getDebterID());
+			preparedStatement.setInt(2, m_gelt.getAmount());
+			preparedStatement.setInt(3, m_gelt.getEntitledID());
+			preparedStatement.executeUpdate();
+
+		} catch (Exception e) {
+			bIsWasAdded = false;
+			e.printStackTrace();
+			play.Logger.error(e.getMessage());
+		} finally {
+			// Closing the resultSet
+			close();
+		}
+		// Commit changes
+		commit();
+		return bIsWasAdded;
+	}
+
+	
 	/**
 	 * This method its for helping the testing and init the table that asked
 	 * 
@@ -307,8 +342,8 @@ public class setterDB {
 				resultSet.close();
 			}
 
-			if (statement != null) {
-				statement.close();
+			if (preparedStatement != null) {
+				preparedStatement.close();
 			}
 
 			if (connect != null) {

@@ -19,7 +19,7 @@ public class setter {
 	 * Inserting new debt.
 	 * 
 	 * @param szDebterName
-	 *            - the debter name
+	 *            - the debtor name
 	 * @param szAmount
 	 *            - the amount for inserting
 	 * @param szEntitledName
@@ -98,10 +98,10 @@ public class setter {
 	}
 
 	/**
-	 * Confirm from a debter if the data of this debt is true
+	 * Confirm from a debtor if the data of this debt is true
 	 * 
 	 * @param szDebterName
-	 *            - the debter name
+	 *            - the debtor name
 	 * @param szAmount
 	 *            - the amount for inserting
 	 * @param szEntitledName
@@ -123,4 +123,59 @@ public class setter {
 		}
 
 	}
+	
+	/**
+	 * Disapprove debt from a debtor if the data of this debt is true
+	 * 
+	 * @param szDebterName
+	 *            - the debtor name
+	 * @param szAmount
+	 *            - the amount for inserting
+	 * @param szEntitledName
+	 *            - the entitled name
+	 * @return
+	 */
+	public static Result notConfirm(String szDebterName, String szAmount, String szEntitledName) {
+		play.Logger.info("<SETTER> Not Confiming");
+		if ((szDebterName != null) && (szAmount != null) && (szEntitledName != null)) {
+			if (setterBL.notConfirm(szDebterName, szAmount, szEntitledName)) {
+				return play.mvc.Results.ok("true");
+			} else {
+				return play.mvc.Results.badRequest("An internal error as ocurred when trying to insert the gelt");
+			}
+
+		} else {
+			return play.mvc.Results.badRequest(
+					"Null pointer screw you! \nyou send your request with an empty debter-name or an empty amount or an entitled-name!");
+		}
+
+	}
+	
+	/**
+	 * pay a gelt
+	 * 
+	 * @param szDebterName
+	 *            - the debtor name
+	 * @param szAmount
+	 *            - the amount for inserting
+	 * @param szEntitledName
+	 *            - the entitled name
+	 * @return
+	 */
+	public static Result pay(String szDebterName, String szAmount, String szEntitledName) {
+		play.Logger.info("<SETTER> "+szEntitledName+" Say that "+szDebterName+" pay to hem the system send to delete the debt");
+		if ((szDebterName != null) && (szAmount != null) && (szEntitledName != null)) {
+			if (setterBL.pay(szDebterName, szAmount, szEntitledName)) {
+				return play.mvc.Results.ok("true");
+			} else {
+				return play.mvc.Results.badRequest("An internal error as ocurred when trying to insert the gelt");
+			}
+
+		} else {
+			return play.mvc.Results.badRequest(
+					"Null pointer screw you! \nyou send your request with an empty debter-name or an empty amount or an entitled-name!");
+		}
+
+	}
+
 }
