@@ -22,6 +22,8 @@ GET 	/IS_DEBTER/:szUserName 		controllers.getter.checkIfUserIsDebter(szUserName:
 POST  	/CONFIRMATION/:szDebterName/:szAmount/:szEntitledName controllers.setter.confirm(szDebterName:String,szAmount:String,szEntitledName:String)
 POST  	/NOT_CONFIRMATION/:szDebterName/:szAmount/:szEntitledName controllers.setter.notConfirm(szDebterName:String,szAmount:String,szEntitledName:String)
 POST  	/PAY/:szDebterName/:szAmount/:szEntitledName controllers.setter.pay(szDebterName:String,szAmount:String,szEntitledName:String)
+# Upload file to the server
+POST /upload 						controllers.Application.uploadFile
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.at(path="/public", file)
                 
