@@ -208,7 +208,31 @@ app.controller('mainControl', ['$scope', '$http', '$state', '$interval', functio
     }
 
 
+// Pay
+    $scope.pay = function(debter,entitled,amount)
+    {
+        if(getCookie("username") == debter)
+        {
+            alert("Only the entitled can confirm that you pay");
+        }
+        else
+        {
+            // send the request to the server for delete the debt
+            $http({
+                method: 'POST',
+                url: '/PAY/' + debter + '/' + amount+ '/' + entitled
+            }).then(
+                function successCallback(response) {
+                    if (response.data == "true") {
+                        swal("The Gelt was deleted successfully");
+                    }
+                },
+                function error(response) {
+                    swal(response.data);
+                });
+        }
 
+    }
     // Send the new debt to the server
     $scope.submit = function () {
         if ((!bIsNameChanged)) {
