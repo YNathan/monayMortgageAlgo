@@ -1,11 +1,24 @@
 package controllers;
 
+import java.io.*;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.List;
+import java.util.Map;
 import java.util.logging.Logger;
 import java.util.logging.Level;
 import BL.setterBL;
+import com.ning.http.multipart.FilePart;
+import play.api.mvc.MultipartFormData;
+import play.mvc.BodyParser;
+import play.mvc.Http;
 import play.mvc.Result;
+
+import static play.mvc.Controller.flash;
+import static play.mvc.Controller.request;
+import static play.mvc.Results.badRequest;
+import static play.mvc.Results.redirect;
 
 /**
  * 
@@ -31,11 +44,11 @@ public class setter {
 			if (setterBL.insertGelt(szDebterName, szAmount, szEntitledName)) {
 				return play.mvc.Results.ok("true");
 			} else {
-				return play.mvc.Results.badRequest("An internal error as ocurred when trying to insert the gelt");
+				return badRequest("An internal error as ocurred when trying to insert the gelt");
 			}
 
 		} else {
-			return play.mvc.Results.badRequest(
+			return badRequest(
 					"Null pointer screw you! \nyou send your request with an empty debter-name or an empty amount or an entitled-name!");
 		}
 	}
@@ -62,7 +75,7 @@ public class setter {
 	 */
 	public static Result registerNewUser(String szUserName, String szFirstName, String szLastName, String szTelephone,
 			String szEmail, String szPassword, String szBirthdate) throws Exception {
-
+	//updateProfilePicture();
 		// INFO
 		play.Logger.info("<SETTER> Register new user : \n============================\nFor : =>>\nUser name : "
 				+ szUserName + "\nFirst name : " + szFirstName + "\nLast name : " + szLastName + "\nTelephone : "
@@ -88,11 +101,11 @@ public class setter {
 					szBirthdate)) {
 				return play.mvc.Results.ok("true");
 			} else {
-				return play.mvc.Results.badRequest("An internal error as ocurred when trying to register");
+				return badRequest("An internal error as ocurred when trying to register");
 			}
 
 		} else {
-			return play.mvc.Results.badRequest(
+			return badRequest(
 					"Null pointer screw you! \nyou send your request with an empty user-name or an empty first-name or an last-name or an telephone or an email or an password or an birthdate!");
 		}
 	}
@@ -114,11 +127,11 @@ public class setter {
 			if (setterBL.confirm(szDebterName, szAmount, szEntitledName)) {
 				return play.mvc.Results.ok("true");
 			} else {
-				return play.mvc.Results.badRequest("An internal error as ocurred when trying to insert the gelt");
+				return badRequest("An internal error as ocurred when trying to insert the gelt");
 			}
 
 		} else {
-			return play.mvc.Results.badRequest(
+			return badRequest(
 					"Null pointer screw you! \nyou send your request with an empty debter-name or an empty amount or an entitled-name!");
 		}
 
@@ -141,11 +154,11 @@ public class setter {
 			if (setterBL.notConfirm(szDebterName, szAmount, szEntitledName)) {
 				return play.mvc.Results.ok("true");
 			} else {
-				return play.mvc.Results.badRequest("An internal error as ocurred when trying to insert the gelt");
+				return badRequest("An internal error as ocurred when trying to insert the gelt");
 			}
 
 		} else {
-			return play.mvc.Results.badRequest(
+			return badRequest(
 					"Null pointer screw you! \nyou send your request with an empty debter-name or an empty amount or an entitled-name!");
 		}
 
@@ -168,14 +181,85 @@ public class setter {
 			if (setterBL.pay(szDebterName, szAmount, szEntitledName)) {
 				return play.mvc.Results.ok("true");
 			} else {
-				return play.mvc.Results.badRequest("An internal error as ocurred when trying to insert the gelt");
+				return badRequest("An internal error as ocurred when trying to insert the gelt");
 			}
 
 		} else {
-			return play.mvc.Results.badRequest(
+			return badRequest(
 					"Null pointer screw you! \nyou send your request with an empty debter-name or an empty amount or an entitled-name!");
 		}
 
 	}
+
+	/**
+	 * Get file(*can be a profile picture) from client and save in the server
+	 * @return
+	 * @throws IOException
+	 */
+	public static play.mvc.Result uploadFile() throws IOException {
+		if(updateProfilePicture())
+		{
+			return redirect("assets/index.html");
+		}else{
+			flash("error", "Missing file");
+			return badRequest();
+		}
+}
+	public static boolean updateProfilePicture(String szUserName)
+	{
+		play.mvc.Http.MultipartFormData body = request().body().asMultipartFormData();
+		play.mvc.Http.MultipartFormData.FilePart picture = body.getFile("file");
+		if (picture != null) {
+			java.io.File sourceFile = picture.getFile();
+			File dest = new File(System.getProperty("user.dir")+"\\profilsPicture\\" + szUserName + ".jpg");
+			try {
+				play.Logger.info("<SETTER> save profile picture on file");
+				setterBL.copyFile(sourceFile, dest);
+			} catch (IOException e) {
+				e.printStackTrace();
+				play.Logger.info(e.getMessage());
+			}
+			return true;
+		} else {
+			flash("error", "Missing file");
+			return false;
+		}
+	}
+	public static boolean updateProfilePicture()
+	{
+		play.mvc.Http.MultipartFormData body = request().body().asMultipartFormData();
+		play.mvc.Http.MultipartFormData.FilePart picture = body.getFile("file");
+		if (picture != null) {
+			java.io.File sourceFile = picture.getFile();
+			File dest = new File(System.getProperty("user.dir")+"\\profilsPicture\\" + picture.getFilename());
+			try {
+				play.Logger.info("<SETTER> save profile picture on file");
+				setterBL.copyFile(sourceFile, dest);
+			} catch (IOException e) {
+				e.printStackTrace();
+				play.Logger.info(e.getMessage());
+			}
+			return true;
+		} else {
+			flash("error", "Missing file");
+			return false;
+		}
+	}
+	/**
+	 * Get file(*can be a profile picture) from client and save in the server
+	 * @return
+	 * @throws IOException
+	 */
+	public static play.mvc.Result uploadFileWithName(String szUserName) throws IOException {
+		if(updateProfilePicture(szUserName))
+		{
+			return redirect("assets/index.html");
+		}else{
+			flash("error", "Missing file");
+			return badRequest();
+		}
+	}
+
+
 
 }
